@@ -1,0 +1,383 @@
+Info: Changing symbol path “J9:/61A4CF9D” to “/630317BA”.
+
+Info: Processing component “J13:/62D151F9:Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical”.
+
+Info: Replacing symbol “J13:/630C225A” footprint “Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical” with “Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical”.
+
+Info: Changing symbol path “J13:/630C225A” to “/62D151F9”.
+
+Info: Changing symbol “J13:/62D151F9” pin “1” net name from “GND” to “/VDD”.
+
+Info: Changing symbol “J13:/62D151F9” pin “2” net name from “Net-(J13-Pad2)” to “/PF6”.
+
+Info: Changing symbol “J13:/62D151F9” pin “3” net name from “Net-(J13-Pad3)” to “/PF7”.
+
+Info: Changing symbol “J13:/62D151F9” pin “4” net name from “” to “GND”.
+
+Info: Processing component “J9:/630317BA:Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical”.
+
+Info: Replacing symbol “J9:/61A4CF9D” footprint “TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm” with “Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical”.
+
+Info: Changing symbol “J15:/63877BF5” pin “8” net name from “” to “GND”.
+
+Info: Changing symbol “J9:/630317BA” pin “1” net name from “Net-(C9-Pad1)” to “/PF1”.
+
+Info: Changing symbol “J9:/630317BA” pin “2” net name from “GND” to “/PF0”.
+
+Info: Changing symbol “J9:/630317BA” pin “3” net name from “” to “GND”.
+
+Info: Processing component “J10:/62DA21AF:Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical”.
+
+Info: Processing component “J14:/61992824:Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical”.
+
+Info: Processing component “J11:/63186258:Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical”.
+
+Info: Processing component “J5:/5BD26EDD:Connector_Coaxial:SMA_Amphenol_132134-11_Vertical”.
+
+Info: Processing component “C2:/64F25216:Capacitor_THT:CP_Radial_D5.0mm_P2.50mm”.
+
+Info: Processing component “C5:/6216B77B:Capacitor_THT:CP_Radial_D5.0mm_P2.50mm”.
+
+Info: Changing symbol “J1:/618B991A” pin “58” net name from “/NC” to “/PG1”.
+
+Info: Adding new symbol “FB4:/63597DFE” footprint “Inductor_SMD:L_0805_2012Metric”.
+
+Info: Changing symbol “FB4:/63597DFE” pin “1” net name from “” to “Net-(C24-Pad2)”.
+
+Info: Changing symbol “FB4:/63597DFE” pin “2” net name from “” to “GND”.
+
+Info: Processing component “FB3:/5BE721A5:Inductor_SMD:L_0805_2012Metric”.
+
+Info: Processing component “FB2:/5BDA7EC0:Inductor_SMD:L_0805_2012Metric”.
+
+Info: Processing component “FB1:/61CAF7CB:Inductor_SMD:L_0805_2012Metric”.
+
+Info: Processing component “D1:/5BE6C923:Diode_SMD:D_SMA_Handsoldering”.
+
+Info: Processing component “J2:/61D28094:Connector_Samtec_HLE_THT:Samtec_HLE-136-02-xx-DV-TE_2x36_P2.54mm_Horizontal”.
+
+Info: Processing component “J1:/618B991A:Connector_Samtec_HLE_THT:Samtec_HLE-136-02-xx-DV-TE_2x36_P2.54mm_Horizontal”.
+
+Info: Processing component “C20:/6318842A:Capacitor_THT:CP_Radial_D5.0mm_P2.50mm”.
+
+Info: Processing component “J15:/63877BF5:Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical”.
+
+Info: Adding new symbol “J15:/63877BF5” footprint “Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical”.
+
+Info: Changing symbol “J15:/63877BF5” pin “1” net name from “” to “/PF9”.
+
+Info: Changing symbol “J15:/63877BF5” pin “2” net name from “” to “/PF13”.
+
+Info: Changing symbol “J15:/63877BF5” pin “3” net name from “” to “/PD1”.
+
+Info: Changing symbol “J15:/63877BF5” pin “4” net name from “” to “/PE12”.
+
+Info: Changing symbol “J15:/63877BF5” pin “5” net name from “” to “/PC9”.
+
+Info: Changing symbol “J15:/63877BF5” pin “6” net name from “” to “/PF11”.
+
+Info: Changing symbol “J15:/63877BF5” pin “7” net name from “” to “/PF12”.
+
+Info: Processing component “C18:/63188597:Capacitor_SMD:C_0402_1005Metric”.
+
+Info: Processing component “C17:/63187D42:Capacitor_SMD:C_0603_1608Metric”.
+
+Info: Processing component “C26:/61B65493:Capacitor_SMD:C_0603_1608Metric”.
+
+Info: Adding new symbol “C26:/61B65493” footprint “Capacitor_SMD:C_0603_1608Metric”.
+
+Info: Changing symbol “C26:/61B65493” pin “1” net name from “” to “/A3V3”.
+
+Info: Changing symbol “C26:/61B65493” pin “2” net name from “” to “/AGND”.
+
+Info: Processing component “C21:/63187EDE:Capacitor_SMD:C_0603_1608Metric”.
+
+Info: Processing component “C1:/65067AB3:Capacitor_SMD:C_0603_1608Metric”.
+
+Info: Processing component “C10:/6207CE49:Capacitor_SMD:C_0603_1608Metric”.
+
+Info: Processing component “C3:/5BDACAE4:Capacitor_SMD:C_0402_1005Metric”.
+
+Info: Changing symbol “C14:/63187970” pin “1” net name from “Net-(C14-Pad1)” to “GND”.
+
+Info: Processing component “C22:/635D69B8:Capacitor_SMD:C_0402_1005Metric”.
+
+Info: Processing component “C11:/635D681B:Capacitor_SMD:CP_Elec_8x10”.
+
+Info: Changing symbol “C11:/635D681B” pin “1” net name from “/E5V” to “/+5V”.
+
+Info: Processing component “C15:/5C4010D5:Capacitor_SMD:CP_Elec_8x10”.
+
+Info: Processing component “C25:/631889B9:Capacitor_SMD:CP_Elec_8x10”.
+
+Info: Processing component “U6:/61E29CE2:XCVR_E180-ZG120A”.
+
+Info: Processing component “U4:/618C0AC4:SOIC127P790X216-8N”.
+
+Info: Processing component “U3:/618C0BE9:SOIC127P790X216-8N”.
+
+Info: Removing unused footprint “TP1:/6342C5A0”.
+
+Info: Changing symbol path “C24:/63187FAC” to “/62741EFC”.
+
+Info: Processing component “C23:/5BE7E7BD:Capacitor_THT:CP_Radial_D5.0mm_P2.50mm”.
+
+Info: Processing component “R3:/5C0A226D:Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder”.
+
+Info: Processing component “C4:/5BF5E583:Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder”.
+
+Info: Processing component “C6:/5BDE9061:Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder”.
+
+Info: Processing component “C7:/5BDEBBA2:Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder”.
+
+Info: Processing component “C9:/62109AB0:Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder”.
+
+Info: Changing symbol “C9:/62109AB0” pin “2” net name from “GND” to “Net-(C24-Pad2)”.
+
+Info: Processing component “C24:/62741EFC:Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder”.
+
+Info: Replacing symbol “C24:/63187FAC” footprint “Capacitor_SMD:C_0603_1608Metric” with “Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder”.
+
+Info: Processing component “U10:/61888ACD:spatboard:XCVR_E30-400M20S”.
+
+Info: Changing symbol “C24:/62741EFC” pin “1” net name from “GND” to “/VDD”.
+
+Info: Changing symbol “C24:/62741EFC” pin “2” net name from “/A3V3” to “Net-(C24-Pad2)”.
+
+Info: Processing component “C12:/629B2DE5:Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder”.
+
+Info: Processing component “C13:/5CCB7C4C:Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder”.
+
+Info: Processing component “C8:/5C39DBA4:Capacitor_SMD:C_0805_2012Metric”.
+
+Info: Processing component “C19:/63187E12:Capacitor_SMD:C_0603_1608Metric”.
+
+Info: Processing component “C16:/63187C64:Capacitor_SMD:C_0603_1608Metric”.
+
+Info: Changing symbol “C16:/63187C64” pin “1” net name from “Net-(C16-Pad1)” to “GND”.
+
+Info: Processing component “C14:/63187970:Capacitor_SMD:C_0603_1608Metric”.
+
+Info: Processing component “RN1:/5BFA3139:Resistor_SMD:R_Array_Convex_4x1206”.
+
+Info: Processing component “J16:/622C2AE8:TerminalBlock:TerminalBlock_Altech_AK300-3_P5.00mm”.
+
+Info: Adding new symbol “J16:/622C2AE8” footprint “TerminalBlock:TerminalBlock_Altech_AK300-3_P5.00mm”.
+
+Info: Changing symbol “J16:/622C2AE8” pin “1” net name from “” to “Net-(C24-Pad2)”.
+
+Info: Changing symbol “J16:/622C2AE8” pin “2” net name from “” to “/VDD”.
+
+Info: Changing symbol “J16:/622C2AE8” pin “3” net name from “” to “Net-(C9-Pad1)”.
+
+Info: Processing component “J17:/619A3715:TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm”.
+
+Info: Adding new symbol “J17:/619A3715” footprint “TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm”.
+
+Info: Changing symbol “J17:/619A3715” pin “1” net name from “” to “GND”.
+
+Info: Changing symbol “J17:/619A3715” pin “2” net name from “” to “Net-(J17-Pad2)”.
+
+Info: Processing component “RN2:/5BF93731:Resistor_SMD:R_Array_Convex_4x1206”.
+
+Info: Processing component “TP10:/6206B82B:TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded”.
+
+Info: Processing component “R6:/5BF77C69:Resistor_SMD:R_2010_5025Metric_Pad1.52x2.65mm_HandSolder”.
+
+Info: Processing component “FB4:/63597DFE:Inductor_SMD:L_0805_2012Metric”.
+
+Info: Processing component “R1:/631C8D39:Resistor_SMD:R_0603_1608Metric”.
+
+Info: Processing component “R7:/6238E73C:Resistor_SMD:R_0603_1608Metric”.
+
+Info: Processing component “R8:/623D1A16:Resistor_SMD:R_0603_1608Metric”.
+
+Info: Processing component “R9:/61BDFCA6:Resistor_SMD:R_0603_1608Metric”.
+
+Info: Processing component “R2:/63DF97D8:Resistor_SMD:R_0603_1608Metric”.
+
+Info: Processing component “R4:/664D24FB:Resistor_SMD:R_0603_1608Metric”.
+
+Info: Processing component “R14:/66EE648E:Resistor_SMD:R_0603_1608Metric”.
+
+Info: Processing component “R13:/618499ED:Resistor_SMD:R_0603_1608Metric”.
+
+Info: Processing component “TP4:/5C0EA403:TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded”.
+
+Info: Processing component “J6:/6258932E:splatlib:3115_PRESSURE_MODULE”.
+
+Info: Processing component “J7:/5BFC8F36:spatboard:PinHeader_1x04_P2.54mm_Vertical”.
+
+Info: Processing component “J8:/5BF652B8:spatboard:PinHeader_1x04_P2.54mm_Vertical”.
+
+Info: Changing symbol “J8:/5BF652B8” pin “1” net name from “/E5V” to “/+5V”.
+
+Info: Processing component “J12:/657D39E5:spatboard:PinHeader_1x04_P2.54mm_Vertical”.
+
+Info: Processing component “J3:/61DA9D30:spatboard:PinHeader_1x04_P2.54mm_Vertical”.
+
+Info: Changing symbol “J3:/61DA9D30” pin “1” net name from “/E5V” to “/+5V”.
+
+Info: Processing component “J4:/620870AB:spatboard:PinHeader_1x04_P2.54mm_Vertical”.
+
+Info: Processing component “U1:/5BD908A5:spatboard:NEO7_GPS_MODULE”.
+
+Info: Processing component “U2:/6186BFAC:spatboard:ESP-C3-13”.
+
+Info: Processing component “R5:/5BF77C6F:Resistor_SMD:R_2010_5025Metric_Pad1.52x2.65mm_HandSolder”.
+
+Info: Processing component “TP13:/5C43FB2E:TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded”.
+
+Info: Processing component “TP12:/5CAD6562:TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded”.
+
+Info: Processing component “TP11:/61EA61D7:TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded”.
+
+Info: Processing component “TP9:/61EE65FA:TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded”.
+
+Info: Processing component “TP7:/5C0DD6AD:TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded”.
+
+Info: Processing component “TP6:/62173C73:TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded”.
+
+Info: Processing component “TP5:/62DB8842:TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded”.
+
+Info: Processing component “TP3:/5C0EE9E7:TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded”.
+
+Info: Processing component “TP2:/5C399B72:TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded”.
+
+Info: Processing component “R11:/661F1C0A:Resistor_SMD:R_0603_1608Metric”.
+
+Info: Processing component “U9:/61A5CBC2:Package_DFN_QFN:DFN-6-1EP_3x3mm_P1mm_EP1.5x2.4mm”.
+
+Info: Changing symbol “U9:/61A5CBC2” pin “2” net name from “Net-(J13-Pad2)” to “Net-(J17-Pad2)”.
+
+Info: Processing component “U8:/5BD7F0EC:Package_SO:MSOP-10_3x3mm_P0.5mm”.
+
+Info: Processing component “D8:/66EE6485:LED_SMD:LED_PLCC-2”.
+
+Info: Processing component “D7:/5BF5D97C:LED_SMD:LED_PLCC-2”.
+
+Info: Processing component “U5:/5BDA5FB8:Package_SO:SOIC-14_3.9x8.7mm_P1.27mm”.
+
+Info: Processing component “D2:/664D24EE:LED_SMD:LED_PLCC-2”.
+
+Info: Changing symbol “Q1:/618490B7” pin “1” net name from “Net-(J13-Pad2)” to “Net-(J17-Pad2)”.
+
+Info: Processing component “D4:/5BF93B8D:LED_SMD:LED_PLCC-2”.
+
+Info: Processing component “D5:/5BF5DD08:LED_SMD:LED_PLCC-2”.
+
+Info: Processing component “D3:/5C2D017B:LED_SMD:LED_PLCC-2”.
+
+Info: Processing component “D6:/5BF93B87:LED_SMD:LED_PLCC-2”.
+
+Info: Processing component “D10:/5BFA313F:LED_SMD:LED_PLCC-2”.
+
+Info: Processing component “Q1:/618490B7:Package_TO_SOT_SMD:SOT-23”.
+
+Info: Processing component “D9:/5BFA312D:LED_SMD:LED_PLCC-2”.
+
+Info: Processing component “U7:/6193E391:Package_TO_SOT_SMD:TO-252-3_TabPin2”.
+
+Info: Processing component “L2:/5BDE8EA2:Inductor_SMD:L_1210_3225Metric_Pad1.42x2.65mm_HandSolder”.
+
+Info: Processing component “R12:/61849B7E:Resistor_SMD:R_0603_1608Metric”.
+
+Info: Processing component “L1:/5BDE60A7:Inductor_SMD:L_1210_3225Metric_Pad1.42x2.65mm_HandSolder”.
+
+Info: Changing symbol “U7:/6193E391” pin “3” net name from “/E5V” to “/+5V”.
+
+Info: Processing component “R10:/61C1BE43:Resistor_SMD:R_0603_1608Metric”.
+
+Connect symbol FB4 pin 1 to net Net-(C24-Pad2).
+
+Reconnect symbol C16 pin 1 from net Net-(C16-Pad1) to net GND.
+
+Add symbol FB4, footprint: Inductor_SMD:L_0805_2012Metric.
+
+Reconnect symbol U9 pin 2 from net Net-(J13-Pad2) to net Net-(J17-Pad2).
+
+Connect symbol J15 pin 2 to net /PF13.
+
+Reconnect symbol C14 pin 1 from net Net-(C14-Pad1) to net GND.
+
+Connect symbol J13 pin 4 to net GND.
+
+Connect symbol J15 pin 1 to net /PF9.
+
+Remove footprint TP1.
+Add symbol J15, footprint: Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical.
+
+Add symbol C26, footprint: Capacitor_SMD:C_0603_1608Metric.
+
+Connect symbol C26 pin 1 to net /A3V3.
+
+Connect symbol C26 pin 2 to net /AGND.
+
+Reconnect symbol J8 pin 1 from net /E5V to net /+5V.
+
+Reconnect symbol J1 pin 58 from net /NC to net /PG1.
+
+Connect symbol FB4 pin 2 to net GND.
+
+Reconnect symbol C11 pin 1 from net /E5V to net /+5V.
+
+Reconnect symbol J3 pin 1 from net /E5V to net /+5V.
+
+Connect symbol J17 pin 1 to net GND.
+
+Reconnect symbol J13 pin 3 from net Net-(J13-Pad3) to net /PF7.
+
+Change symbol J9 footprint from TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm to Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical.
+
+Reconnect symbol J13 pin 2 from net Net-(J13-Pad2) to net /PF6.
+
+Reconnect symbol J9 pin 1 from net Net-(C9-Pad1) to net /PF1.
+
+Reconnect symbol J9 pin 2 from net GND to net /PF0.
+
+Reconnect symbol J13 pin 1 from net GND to net /VDD.
+
+Connect symbol J9 pin 3 to net GND.
+
+Reconnect symbol U7 pin 3 from net /E5V to net /+5V.
+
+Change symbol J13 footprint from Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical to Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical.
+
+Connect symbol J15 pin 8 to net GND.
+
+Reconnect symbol Q1 pin 1 from net Net-(J13-Pad2) to net Net-(J17-Pad2).
+
+Connect symbol J17 pin 2 to net Net-(J17-Pad2).
+
+Add net Net-(J17-Pad2).
+
+Connect symbol J15 pin 7 to net /PF12.
+
+Connect symbol J15 pin 3 to net /PD1.
+
+Add symbol J17, footprint: TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm.
+
+Connect symbol J15 pin 6 to net /PF11.
+
+Reconnect symbol C9 pin 2 from net GND to net Net-(C24-Pad2).
+
+Connect symbol J16 pin 3 to net Net-(C9-Pad1).
+
+Change symbol C24 footprint from Capacitor_SMD:C_0603_1608Metric to Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder.
+
+Connect symbol J15 pin 5 to net /PC9.
+
+Connect symbol J16 pin 2 to net /VDD.
+
+Reconnect symbol C24 pin 1 from net GND to net /VDD.
+
+Reconnect symbol C24 pin 2 from net /A3V3 to net Net-(C24-Pad2).
+
+Connect symbol J16 pin 1 to net Net-(C24-Pad2).
+
+Add net Net-(C24-Pad2).
+
+Add symbol J16, footprint: TerminalBlock:TerminalBlock_Altech_AK300-3_P5.00mm.
+
+Connect symbol J15 pin 4 to net /PE12.
+
