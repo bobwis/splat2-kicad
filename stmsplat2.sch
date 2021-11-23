@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:stmsplat2-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -14,9 +13,9 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 1050 5950 0    50   Input ~ 0
+Text GLabel 1200 5300 0    50   Input ~ 0
 PF9
-Text HLabel 6750 6400 2    50   Input ~ 0
+Text GLabel 6750 6400 2    50   Input ~ 0
 PE15
 $Comp
 L Device:Opamp_Quad_Generic U5
@@ -40,8 +39,6 @@ F 3 "~" H 8950 10150 50  0001 C CNN
 	1    8950 10150
 	1    0    0    -1  
 $EndComp
-Text HLabel 12400 3200 0    50   Input ~ 0
-AGND
 $Comp
 L Device:Ferrite_Bead FB2
 U 1 1 5BDA7EC0
@@ -53,12 +50,10 @@ F 3 "~" H 13700 8500 50  0001 C CNN
 	1    13700 8500
 	0    -1   -1   0   
 $EndComp
-Text HLabel 15650 8500 2    50   Input ~ 0
+Text GLabel 15650 8500 2    50   Input ~ 0
 A3V3
-Text HLabel 10550 750  1    50   Input ~ 0
+Text GLabel 10550 750  1    50   Input ~ 0
 A3V3
-Text HLabel 10550 1750 3    50   Input ~ 0
-AGND
 $Comp
 L Device:C C3
 U 1 1 5BDACAE4
@@ -78,9 +73,9 @@ Wire Wire Line
 	2500 10200 2500 10900
 Wire Wire Line
 	3750 10900 3750 10600
-Text HLabel 1300 10900 0    50   Input ~ 0
+Text GLabel 1300 10900 0    50   Input ~ 0
 GND
-Text HLabel 850  9250 0    50   Input ~ 0
+Text GLabel 850  9250 0    50   Input ~ 0
 VDD
 Wire Wire Line
 	12700 3050 12450 3050
@@ -144,8 +139,6 @@ Wire Wire Line
 	8550 2500 8550 2650
 Wire Wire Line
 	9200 2650 9200 2500
-Text HLabel 6550 2250 2    50   Input ~ 0
-AGND
 $Comp
 L Device:D_TVS D1
 U 1 1 5BE6C923
@@ -157,8 +150,6 @@ F 3 "http://www.farnell.com/datasheets/2076055.pdf?_ga=2.113895617.736118577.154
 	1    6950 1650
 	0    -1   1    0   
 $EndComp
-Text HLabel 14900 9550 3    50   Input ~ 0
-AGND
 Wire Wire Line
 	14300 8500 14300 8800
 $Comp
@@ -239,7 +230,7 @@ F 3 "~" H 4750 10900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	12700 2850 12300 2850
-Text HLabel 14550 2700 2    50   Input ~ 0
+Text GLabel 14550 2700 2    50   Input ~ 0
 A3V3
 Text Label 12050 1300 0    50   ~ 0
 HALF3V3
@@ -303,13 +294,13 @@ Wire Wire Line
 	7550 10350 7900 10350
 Wire Wire Line
 	7550 10450 7900 10450
-Text HLabel 7900 10150 2    50   Input ~ 0
+Text GLabel 7900 10150 2    50   Input ~ 0
 +5V
-Text HLabel 7900 10250 2    50   Input ~ 0
+Text GLabel 7900 10250 2    50   Input ~ 0
 PC12
-Text HLabel 7900 10350 2    50   Input ~ 0
+Text GLabel 7900 10350 2    50   Input ~ 0
 PB12
-Text HLabel 7900 10450 2    50   Input ~ 0
+Text GLabel 7900 10450 2    50   Input ~ 0
 GND
 $Comp
 L Device:R_Pack04 RN2
@@ -408,7 +399,7 @@ Wire Wire Line
 	14300 1900 14300 1800
 Wire Wire Line
 	14300 1800 14050 1800
-Text HLabel 15600 2400 3    50   Input ~ 0
+Text GLabel 15600 2400 3    50   Input ~ 0
 GND
 Wire Wire Line
 	15500 1400 15500 850 
@@ -428,7 +419,7 @@ Wire Wire Line
 	13600 850  13500 850 
 Wire Wire Line
 	13500 850  13500 750 
-Text HLabel 13500 750  1    50   Input ~ 0
+Text GLabel 13500 750  1    50   Input ~ 0
 VDD
 $Comp
 L Device:LED D9
@@ -457,13 +448,13 @@ Wire Wire Line
 	15450 1900 15450 1150
 Wire Wire Line
 	15450 1150 14000 1150
-Text HLabel 12050 7150 0    50   Input ~ 0
+Text GLabel 12050 7150 0    50   Input ~ 0
 PB6
-Text HLabel 12050 7250 0    50   Input ~ 0
+Text GLabel 12050 7250 0    50   Input ~ 0
 PB9
-Text HLabel 5750 10400 0    50   Input ~ 0
+Text GLabel 5750 10400 0    50   Input ~ 0
 PB6
-Text HLabel 5750 10300 0    50   Input ~ 0
+Text GLabel 5750 10300 0    50   Input ~ 0
 PB9
 Wire Wire Line
 	12200 8750 12200 8950
@@ -481,9 +472,9 @@ $EndComp
 Wire Wire Line
 	3750 10900 4100 10900
 Connection ~ 3750 10900
-Text HLabel 4000 6300 0    50   Input ~ 0
+Text GLabel 4000 6300 0    50   Input ~ 0
 PC6
-Text HLabel 4000 6400 0    50   Input ~ 0
+Text GLabel 4000 6400 0    50   Input ~ 0
 PG9
 $Comp
 L power:GND #PWR02
@@ -496,9 +487,9 @@ F 3 "" H 4350 8500 50  0001 C CNN
 	1    4350 8500
 	1    0    0    -1  
 $EndComp
-Text HLabel 4000 6600 0    50   Input ~ 0
+Text GLabel 4000 6600 0    50   Input ~ 0
 PG15
-Text HLabel 4000 6500 0    50   Input ~ 0
+Text GLabel 4000 6500 0    50   Input ~ 0
 PG8
 Text Label 7050 10400 0    50   ~ 0
 NXT_TX
@@ -510,15 +501,15 @@ Wire Wire Line
 	13650 1700 13300 1700
 Wire Wire Line
 	13650 1800 13300 1800
-Text HLabel 13300 1150 0    50   Input ~ 0
+Text GLabel 13300 1150 0    50   Input ~ 0
 PD15
-Text HLabel 13300 1600 0    50   Input ~ 0
+Text GLabel 13300 1600 0    50   Input ~ 0
 PD14
-Text HLabel 13300 1500 0    50   Input ~ 0
+Text GLabel 13300 1500 0    50   Input ~ 0
 PD13
-Text HLabel 13300 1700 0    50   Input ~ 0
+Text GLabel 13300 1700 0    50   Input ~ 0
 PD12
-Text HLabel 13300 1800 0    50   Input ~ 0
+Text GLabel 13300 1800 0    50   Input ~ 0
 PD11
 $Comp
 L Device:LED D3
@@ -531,12 +522,6 @@ F 3 "~" H 12550 4500 50  0001 C CNN
 	1    12550 4500
 	1    0    0    1   
 $EndComp
-Text HLabel 13300 1050 0    50   Input ~ 0
-XB_PIO4
-Wire Wire Line
-	13300 1050 13600 1050
-Wire Wire Line
-	14000 1050 14150 1050
 $Comp
 L Connector:TestPoint TP2
 U 1 1 5C399B72
@@ -569,7 +554,7 @@ Wire Wire Line
 	10850 11050 10850 10650
 Wire Wire Line
 	10850 10650 10700 10650
-Text HLabel 14550 2550 2    50   Input ~ 0
+Text GLabel 14550 2550 2    50   Input ~ 0
 PA3
 Wire Wire Line
 	13300 1500 13650 1500
@@ -583,15 +568,15 @@ Wire Wire Line
 	14300 3050 14900 3050
 Wire Wire Line
 	14300 3150 14900 3150
-Text HLabel 14900 2850 2    50   Input ~ 0
+Text GLabel 14900 2850 2    50   Input ~ 0
 PD3
-Text HLabel 14900 2950 2    50   Input ~ 0
+Text GLabel 14900 2950 2    50   Input ~ 0
 PC2
-Text HLabel 14900 3050 2    50   Input ~ 0
+Text GLabel 14900 3050 2    50   Input ~ 0
 PC3
 Text Label 15350 2950 2    50   ~ 0
 SPI2
-Text HLabel 14900 3150 2    50   Input ~ 0
+Text GLabel 14900 3150 2    50   Input ~ 0
 PG2
 Text Label 3300 10250 2    50   ~ 0
 TPULSE
@@ -646,7 +631,7 @@ F 3 "~" H 11700 9100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	11700 9250 11700 9450
-Text HLabel 11700 7300 1    50   Input ~ 0
+Text GLabel 11700 7300 1    50   Input ~ 0
 VDD
 $Comp
 L Device:R R6
@@ -674,7 +659,7 @@ Wire Wire Line
 	9900 2450 9900 2650
 Wire Wire Line
 	9900 1900 9900 2050
-Text HLabel 9900 1500 1    50   Input ~ 0
+Text GLabel 9900 1500 1    50   Input ~ 0
 A3V3
 Wire Wire Line
 	9900 1500 9900 1600
@@ -684,38 +669,38 @@ Wire Wire Line
 $Comp
 L Connector:Conn_01x04_Male J7
 U 1 1 5BFC8F36
-P 1050 7850
-F 0 "J7" H 1156 8219 50  0000 C CNN
-F 1 "Conn_01x04_Male" H 1156 8128 50  0000 C CNN
-F 2 "spatboard:PinHeader_1x04_P2.54mm_Vertical" H 1050 7850 50  0001 C CNN
-F 3 "~" H 1050 7850 50  0001 C CNN
-F 4 "DEBUG COM2" H 1156 8037 50  0000 C CNN "DESC"
-	1    1050 7850
+P 1050 7550
+F 0 "J7" H 1156 7919 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 1156 7828 50  0000 C CNN
+F 2 "spatboard:PinHeader_1x04_P2.54mm_Vertical" H 1050 7550 50  0001 C CNN
+F 3 "~" H 1050 7550 50  0001 C CNN
+F 4 "DEBUG COM2" H 1156 7737 50  0000 C CNN "DESC"
+	1    1050 7550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
+	1250 7450 1600 7450
+Wire Wire Line
+	1250 7550 1600 7550
+Wire Wire Line
+	1250 7650 1600 7650
+Wire Wire Line
 	1250 7750 1600 7750
-Wire Wire Line
-	1250 7850 1600 7850
-Wire Wire Line
-	1250 7950 1600 7950
-Wire Wire Line
-	1250 8050 1600 8050
-Text HLabel 1600 7750 2    50   Input ~ 0
+Text GLabel 1600 7450 2    50   Input ~ 0
 VDD
-Text HLabel 1600 7850 2    50   Input ~ 0
+Text GLabel 1600 7550 2    50   Input ~ 0
 PD6
-Text HLabel 1600 7950 2    50   Input ~ 0
+Text GLabel 1600 7650 2    50   Input ~ 0
 PD5
-Text HLabel 1600 8050 2    50   Input ~ 0
+Text GLabel 1600 7750 2    50   Input ~ 0
 GND
 Wire Wire Line
 	4250 9900 4350 9900
 Wire Wire Line
 	4250 10000 4350 10000
-Text HLabel 4350 10000 2    50   Input ~ 0
+Text GLabel 4350 10000 2    50   Input ~ 0
 PE0
-Text HLabel 4350 9900 2    50   Input ~ 0
+Text GLabel 4350 9900 2    50   Input ~ 0
 PE1
 Text Notes 4800 9850 2    50   ~ 0
 STM UART8
@@ -770,7 +755,7 @@ Wire Wire Line
 	6200 6500 6200 6650
 Wire Wire Line
 	15650 6650 15650 6750
-Text HLabel 15650 6650 1    50   Input ~ 0
+Text GLabel 15650 6650 1    50   Input ~ 0
 VDD
 $Comp
 L Device:Q_PMOS_SGD Q1
@@ -878,13 +863,13 @@ L stmsplat2-rescue:ESP32-C3-13-Espressif U2
 U 1 1 6186BFAC
 P 5600 7250
 F 0 "U2" H 5625 8665 50  0000 C CNN
-F 1 "ESP32-C3-13" H 5625 8574 50  0000 C CNN
+F 1 "ESP-C3-13U" H 5625 8574 50  0000 C CNN
 F 2 "spatboard:ESP-C3-13" H 5600 5950 50  0001 C CNN
 F 3 "https://docs.ai-thinker.com/_media/esp32/docs/esp-c3-13_specification.pdf" H 3150 5950 50  0001 C CNN
 	1    5600 7250
 	-1   0    0    -1  
 $EndComp
-Text HLabel 3550 8500 0    50   Input ~ 0
+Text GLabel 3550 8500 0    50   Input ~ 0
 +5V
 Text Notes 2850 8200 0    50   ~ 0
 ESP32-C3\nUSB JTAG\nPORT\n
@@ -901,7 +886,7 @@ F 4 "USB JTAG" H 3706 8237 50  0000 C CNN "DESC"
 	1    0    0    -1  
 $EndComp
 Connection ~ 10750 9450
-Text HLabel 7400 3550 1    50   Input ~ 0
+Text GLabel 7400 3550 1    50   Input ~ 0
 VDD
 Wire Wire Line
 	9400 10150 9400 9900
@@ -956,9 +941,6 @@ Connection ~ 11700 9450
 Connection ~ 12700 8750
 Wire Wire Line
 	12700 8750 13000 8750
-Connection ~ 14900 9450
-Wire Wire Line
-	14900 9450 14900 9550
 Wire Wire Line
 	11700 9450 12200 9450
 Wire Wire Line
@@ -1007,7 +989,7 @@ $Comp
 L Device:Opamp_Quad_Generic U5
 U 4 1 5BDA6288
 P 11550 1300
-F 0 "U5" H 11550 1667 50  0000 C CNN
+F 0 "U5" H 11550 1650 50  0000 C CNN
 F 1 "Opamp_Quad_MCP6024" H 11550 1576 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 11550 1300 50  0001 C CNN
 F 3 "~" H 11550 1300 50  0001 C CNN
@@ -1021,8 +1003,6 @@ Wire Wire Line
 	9350 2050 9900 2050
 Wire Wire Line
 	12300 2050 12300 2850
-Wire Wire Line
-	6550 2250 6400 2250
 $Comp
 L Device:R_Small R3
 U 1 1 5C0A226D
@@ -1034,17 +1014,12 @@ F 3 "~" H 6400 2000 50  0001 C CNN
 	1    6400 2000
 	1    0    0    -1  
 $EndComp
-Connection ~ 6400 2250
 Wire Wire Line
 	6950 1800 6950 2650
 Connection ~ 6950 2650
 Wire Wire Line
 	6400 2650 6950 2650
 Connection ~ 6400 2650
-Wire Wire Line
-	6400 2100 6400 2250
-Wire Wire Line
-	6400 2250 6400 2650
 Wire Wire Line
 	6400 950  6400 1900
 $Comp
@@ -1090,11 +1065,11 @@ Wire Wire Line
 	3800 7950 3950 7950
 Wire Wire Line
 	6650 6400 6750 6400
-Text HLabel 5350 3100 0    50   Input ~ 0
+Text GLabel 5350 3100 0    50   Input ~ 0
 PC10
-Text HLabel 5350 3250 0    50   Input ~ 0
+Text GLabel 5350 3250 0    50   Input ~ 0
 PB2
-Text HLabel 5350 2950 0    50   Input ~ 0
+Text GLabel 5350 2950 0    50   Input ~ 0
 PB4
 Text Notes 5050 3150 2    50   ~ 0
 SPI3_SCK
@@ -1174,7 +1149,7 @@ Text Notes 6600 9850 0    50   ~ 0
 STM_DAC
 Wire Wire Line
 	8300 9300 8300 9700
-Text HLabel 9100 9050 0    50   Input ~ 0
+Text GLabel 9100 9050 0    50   Input ~ 0
 PB8
 $Comp
 L Connector:Conn_01x03_Male J10
@@ -1201,323 +1176,283 @@ Wire Wire Line
 	7200 7400 7200 7350
 Wire Wire Line
 	7200 7350 7750 7350
-Text HLabel 9800 4500 0    50   Input ~ 0
+Text GLabel 9800 4500 0    50   Input ~ 0
 PE8
-Text HLabel 2300 2000 2    50   Input ~ 0
+Text GLabel 1650 1000 2    50   Input ~ 0
 PC11
-Text HLabel 2300 2100 2    50   Input ~ 0
+Text Label 1650 1100 0    50   ~ 0
 PD2
-Text HLabel 2300 2200 2    50   Input ~ 0
-E5V
-Text HLabel 2300 2300 2    50   Input ~ 0
+Text GLabel 1650 1300 2    50   Input ~ 0
 GND
-Text HLabel 2300 2400 2    50   Input ~ 0
+Text GLabel 1650 1400 2    50   Input ~ 0
 NC
-Text HLabel 2300 2500 2    50   Input ~ 0
+Text Label 1650 1500 0    50   ~ 0
 IOREF
-Text HLabel 2300 2600 2    50   Input ~ 0
+Text Label 1650 1600 0    50   ~ 0
 NRST
-Text HLabel 2300 2700 2    50   Input ~ 0
+Text Label 1650 1700 0    50   ~ 0
 +3V3
-Text HLabel 2300 2800 2    50   Input ~ 0
+Text GLabel 1650 1800 2    50   Input ~ 0
 +5V
-Text HLabel 2300 2900 2    50   Input ~ 0
+Text GLabel 1650 1900 2    50   Input ~ 0
 GND
-Text HLabel 2300 3000 2    50   Input ~ 0
+Text GLabel 1650 2000 2    50   Input ~ 0
 GND
-Text HLabel 2300 3100 2    50   Input ~ 0
+Text Label 1650 2100 0    50   ~ 0
 VIN
-Text HLabel 2300 3200 2    50   Input ~ 0
+Text GLabel 1650 2200 2    50   Input ~ 0
 NC
-Text HLabel 2300 3300 2    50   Input ~ 0
+Text GLabel 1650 2300 2    50   Input ~ 0
 PA0
-Text HLabel 2300 3400 2    50   Input ~ 0
+Text Label 1650 2400 0    50   ~ 0
 PA1
-Text HLabel 2300 3500 2    50   Input ~ 0
+Text GLabel 1650 2500 2    50   Input ~ 0
 PA4
-Text HLabel 2300 3600 2    50   Input ~ 0
+Text Label 1650 2600 0    50   ~ 0
 PB0
-Text HLabel 2300 3700 2    50   Input ~ 0
+Text Label 1650 2700 0    50   ~ 0
 PC1
-Text HLabel 2300 3800 2    50   Input ~ 0
+Text Label 1650 2800 0    50   ~ 0
 PC0
-Text HLabel 2300 3900 2    50   Input ~ 0
+Text GLabel 1650 2900 2    50   Input ~ 0
 PD3
-Text HLabel 2300 4000 2    50   Input ~ 0
+Text GLabel 1650 3000 2    50   Input ~ 0
 PG2
-Text HLabel 2300 4100 2    50   Input ~ 0
+Text GLabel 1650 3100 2    50   Input ~ 0
 PG3
-Text HLabel 2300 4200 2    50   Input ~ 0
+Text GLabel 1650 3200 2    50   Input ~ 0
 PE2
-Text HLabel 2300 4300 2    50   Input ~ 0
+Text GLabel 1650 3300 2    50   Input ~ 0
 PE4
-Text HLabel 2300 4400 2    50   Input ~ 0
+Text GLabel 1650 3400 2    50   Input ~ 0
 PE5
-Text HLabel 2300 4500 2    50   Input ~ 0
+Text GLabel 1650 3500 2    50   Input ~ 0
 PF2
-Text HLabel 2300 4600 2    50   Input ~ 0
+Text Label 1650 3600 0    50   ~ 0
 PF8
-Text HLabel 2300 4700 2    50   Input ~ 0
+Text GLabel 1650 3700 2    50   Input ~ 0
 PF9
-Text HLabel 2300 4800 2    50   Input ~ 0
+Text GLabel 1650 3800 2    50   Input ~ 0
 PG1
-Text HLabel 2300 4900 2    50   Input ~ 0
+Text GLabel 1650 3900 2    50   Input ~ 0
 GND
-Text HLabel 2300 5000 2    50   Input ~ 0
+Text GLabel 1650 4000 2    50   Input ~ 0
 PE6
-Text HLabel 2300 5100 2    50   Input ~ 0
+Text GLabel 1650 4100 2    50   Input ~ 0
 PG15
-Text HLabel 2300 5200 2    50   Input ~ 0
-PG10
-Text HLabel 2300 5300 2    50   Input ~ 0
+Text Label 1650 4300 0    50   ~ 0
 PG13
-Text HLabel 2300 5400 2    50   Input ~ 0
+Text Label 1650 4400 0    50   ~ 0
 PG11
-Text HLabel 2300 5500 2    50   Input ~ 0
+Text GLabel 1650 4500 2    50   Input ~ 0
 GND
-Text HLabel 1800 2000 0    50   Input ~ 0
+Text GLabel 1150 1000 0    50   Input ~ 0
 PC10
-Text HLabel 1800 2100 0    50   Input ~ 0
+Text GLabel 1150 1100 0    50   Input ~ 0
 PC12
-Text HLabel 1800 2200 0    50   Input ~ 0
+Text GLabel 1150 1200 0    50   Input ~ 0
 VDD
-Text HLabel 1800 2300 0    50   Input ~ 0
+Text Label 1150 1300 2    50   ~ 0
 BOOT0
-Text HLabel 1800 2400 0    50   Input ~ 0
+Text Label 1150 1400 2    50   ~ 0
 PF6
-Text HLabel 1800 2500 0    50   Input ~ 0
+Text GLabel 1150 1500 0    50   Input ~ 0
 PF7
-Text HLabel 1800 2600 0    50   Input ~ 0
+Text Label 1150 1600 2    50   ~ 0
 PA13
-Text HLabel 1800 2700 0    50   Input ~ 0
+Text Label 1150 1700 2    50   ~ 0
 PA14
-Text HLabel 1800 2800 0    50   Input ~ 0
+Text Label 1150 1800 2    50   ~ 0
 PA15
-Text HLabel 1800 2900 0    50   Input ~ 0
+Text GLabel 1150 1900 0    50   Input ~ 0
 GND
-Text HLabel 1800 3000 0    50   Input ~ 0
+Text Label 1150 2000 2    50   ~ 0
 PB7
-Text HLabel 1800 3100 0    50   Input ~ 0
+Text Label 1150 2100 2    50   ~ 0
 PC13
-Text HLabel 1800 3200 0    50   Input ~ 0
+Text Label 1150 2200 2    50   ~ 0
 PC14
-Text HLabel 1800 3300 0    50   Input ~ 0
+Text Label 1150 2300 2    50   ~ 0
 PC15
-Text HLabel 1800 3400 0    50   Input ~ 0
+Text Label 1150 2400 2    50   ~ 0
 PH0
-Text HLabel 1800 3500 0    50   Input ~ 0
+Text Label 1150 2500 2    50   ~ 0
 PH1
-Text HLabel 1800 3600 0    50   Input ~ 0
+Text Label 1150 2600 2    50   ~ 0
 VBAT
-Text HLabel 1800 3700 0    50   Input ~ 0
+Text GLabel 1150 2700 0    50   Input ~ 0
 PC2
-Text HLabel 1800 3800 0    50   Input ~ 0
+Text GLabel 1150 2800 0    50   Input ~ 0
 PC3
-Text HLabel 1800 3900 0    50   Input ~ 0
+Text Label 1150 2900 2    50   ~ 0
 PD4
-Text HLabel 1800 4000 0    50   Input ~ 0
+Text GLabel 1150 3000 0    50   Input ~ 0
 PD5
-Text HLabel 1800 4100 0    50   Input ~ 0
+Text GLabel 1150 3100 0    50   Input ~ 0
 PD6
-Text HLabel 1800 4200 0    50   Input ~ 0
+Text Label 1150 3200 2    50   ~ 0
 PD7
-Text HLabel 1800 4300 0    50   Input ~ 0
+Text GLabel 1150 3300 0    50   Input ~ 0
 PE3
-Text HLabel 1800 4400 0    50   Input ~ 0
+Text GLabel 1150 3400 0    50   Input ~ 0
 GND
-Text HLabel 1800 4500 0    50   Input ~ 0
+Text GLabel 1150 3500 0    50   Input ~ 0
 PF1
-Text HLabel 1800 4600 0    50   Input ~ 0
+Text GLabel 1150 3600 0    50   Input ~ 0
 PF0
-Text HLabel 1800 4700 0    50   Input ~ 0
+Text GLabel 1150 3700 0    50   Input ~ 0
 PD1
-Text HLabel 1800 4800 0    50   Input ~ 0
+Text Label 1150 3800 2    50   ~ 0
 PD0
-Text HLabel 1800 4900 0    50   Input ~ 0
+Text GLabel 1150 3900 0    50   Input ~ 0
 PG0
-Text HLabel 1800 5000 0    50   Input ~ 0
+Text GLabel 1150 4000 0    50   Input ~ 0
 PE1
-Text HLabel 1800 5100 0    50   Input ~ 0
+Text GLabel 1150 4100 0    50   Input ~ 0
 PG9
-Text HLabel 1800 5200 0    50   Input ~ 0
+Text GLabel 1150 4200 0    50   Input ~ 0
 PG12
-Text HLabel 1800 5300 0    50   Input ~ 0
-PH2
-Text HLabel 1800 5400 0    50   Input ~ 0
-PD9
-Text HLabel 1800 5500 0    50   Input ~ 0
+Text GLabel 1150 4500 0    50   Input ~ 0
 GND
 $Comp
 L Connector_Generic:Conn_02x36_Odd_Even J1
 U 1 1 618B991A
-P 2000 3700
-F 0 "J1" H 2050 5617 50  0000 C CNN
-F 1 "C11_2X36" H 2050 5526 50  0000 C CNN
-F 2 "Connector_Samtec_HLE_THT:Samtec_HLE-136-02-xx-DV-TE_2x36_P2.54mm_Horizontal" H 2000 3700 50  0001 C CNN
-F 3 "~" H 2000 3700 50  0001 C CNN
-	1    2000 3700
+P 1350 2700
+F 0 "J1" H 1400 4617 50  0000 C CNN
+F 1 "C11_2X36" H 1400 4526 50  0000 C CNN
+F 2 "Connector_Samtec_HLE_THT:Samtec_HLE-136-02-xx-DV-TE_2x36_P2.54mm_Horizontal" H 1350 2700 50  0001 C CNN
+F 3 "~" H 1350 2700 50  0001 C CNN
+	1    1350 2700
 	1    0    0    -1  
 $EndComp
-Text HLabel 3650 2000 2    50   Input ~ 0
+Text GLabel 3000 1000 2    50   Input ~ 0
 PC8
-Text HLabel 3650 2100 2    50   Input ~ 0
+Text GLabel 3000 1100 2    50   Input ~ 0
 PC6
-Text HLabel 3650 2200 2    50   Input ~ 0
-PC5
-Text HLabel 3650 2300 2    50   Input ~ 0
-U5V
-Text HLabel 3650 2400 2    50   Input ~ 0
+Text Label 3000 1400 0    50   ~ 0
 PD8
-Text HLabel 3650 2500 2    50   Input ~ 0
+Text Label 3000 1500 0    50   ~ 0
 PA12
-Text HLabel 3650 2600 2    50   Input ~ 0
+Text Label 3000 1600 0    50   ~ 0
 PA11
-Text HLabel 3650 2700 2    50   Input ~ 0
+Text GLabel 3000 1700 2    50   Input ~ 0
 PB12
-Text HLabel 3650 2800 2    50   Input ~ 0
+Text Label 3000 1800 0    50   ~ 0
 PB11
-Text HLabel 3650 2900 2    50   Input ~ 0
+Text GLabel 3000 1900 2    50   Input ~ 0
 GND
-Text HLabel 3650 3000 2    50   Input ~ 0
+Text GLabel 3000 2000 2    50   Input ~ 0
 PB2
-Text HLabel 3650 3100 2    50   Input ~ 0
+Text GLabel 3000 2100 2    50   Input ~ 0
 PB1
-Text HLabel 3650 3200 2    50   Input ~ 0
+Text GLabel 3000 2200 2    50   Input ~ 0
 PB15
-Text HLabel 3650 3300 2    50   Input ~ 0
-PB14
-Text HLabel 3650 3400 2    50   Input ~ 0
-PB13
-Text HLabel 3650 3500 2    50   Input ~ 0
-AGND
-Text HLabel 3650 3600 2    50   Input ~ 0
-PC4
-Text HLabel 3650 3700 2    50   Input ~ 0
-PF5
-Text HLabel 3650 3800 2    50   Input ~ 0
-PF4
-Text HLabel 3650 3900 2    50   Input ~ 0
+Text GLabel 3000 2900 2    50   Input ~ 0
 PE8
-Text HLabel 3650 4000 2    50   Input ~ 0
-PF10
-Text HLabel 3650 4100 2    50   Input ~ 0
+Text GLabel 3000 3100 2    50   Input ~ 0
 PE7
-Text HLabel 3650 4200 2    50   Input ~ 0
+Text GLabel 3000 3200 2    50   Input ~ 0
 PD14
-Text HLabel 3650 4300 2    50   Input ~ 0
+Text GLabel 3000 3300 2    50   Input ~ 0
 PD15
-Text HLabel 3650 4400 2    50   Input ~ 0
+Text Label 3000 3400 0    50   ~ 0
 PF14
-Text HLabel 3650 4500 2    50   Input ~ 0
+Text Label 3000 3500 0    50   ~ 0
 PE9
-Text HLabel 3650 4600 2    50   Input ~ 0
+Text GLabel 3000 3600 2    50   Input ~ 0
 GND
-Text HLabel 3650 4700 2    50   Input ~ 0
+Text GLabel 3000 3700 2    50   Input ~ 0
 PE11
-Text HLabel 3650 4800 2    50   Input ~ 0
+Text Label 3000 3800 0    50   ~ 0
 PF3
-Text HLabel 3650 4900 2    50   Input ~ 0
-PF15
-Text HLabel 3650 5000 2    50   Input ~ 0
+Text GLabel 3000 4000 2    50   Input ~ 0
 PF11
-Text HLabel 3650 5100 2    50   Input ~ 0
+Text GLabel 3000 4100 2    50   Input ~ 0
 PE0
-Text HLabel 3650 5200 2    50   Input ~ 0
+Text GLabel 3000 4200 2    50   Input ~ 0
 PG8
-Text HLabel 3650 5300 2    50   Input ~ 0
+Text GLabel 3000 4300 2    50   Input ~ 0
 PG5
-Text HLabel 3650 5400 2    50   Input ~ 0
-PG6
-Text HLabel 3650 5500 2    50   Input ~ 0
+Text GLabel 3000 4500 2    50   Input ~ 0
 GND
-Text HLabel 3150 2000 0    50   Input ~ 0
+Text GLabel 2500 1000 0    50   Input ~ 0
 PC9
-Text HLabel 3150 2100 0    50   Input ~ 0
+Text GLabel 2500 1100 0    50   Input ~ 0
 PB8
-Text HLabel 3150 2200 0    50   Input ~ 0
+Text GLabel 2500 1200 0    50   Input ~ 0
 PB9
-Text HLabel 3150 2300 0    50   Input ~ 0
+Text Label 2500 1300 2    50   ~ 0
 AVDD
-Text HLabel 3150 2400 0    50   Input ~ 0
+Text GLabel 2500 1400 0    50   Input ~ 0
 GND
-Text HLabel 3150 2500 0    50   Input ~ 0
+Text GLabel 2500 1500 0    50   Input ~ 0
 PA5
-Text HLabel 3150 2600 0    50   Input ~ 0
+Text Label 2500 1600 2    50   ~ 0
 PA6
-Text HLabel 3150 2700 0    50   Input ~ 0
+Text Label 2500 1700 2    50   ~ 0
 PA7
-Text HLabel 3150 2800 0    50   Input ~ 0
+Text GLabel 2500 1800 0    50   Input ~ 0
 PB6
-Text HLabel 3150 2900 0    50   Input ~ 0
+Text Label 2500 1900 2    50   ~ 0
 PC7
-Text HLabel 3150 3000 0    50   Input ~ 0
+Text Label 2500 2000 2    50   ~ 0
 PA9
-Text HLabel 3150 3100 0    50   Input ~ 0
+Text Label 2500 2100 2    50   ~ 0
 PA8
-Text HLabel 3150 3200 0    50   Input ~ 0
+Text GLabel 2500 2200 0    50   Input ~ 0
 PB10
-Text HLabel 3150 3300 0    50   Input ~ 0
+Text GLabel 2500 2300 0    50   Input ~ 0
 PB4
-Text HLabel 3150 3400 0    50   Input ~ 0
+Text GLabel 2500 2400 0    50   Input ~ 0
 PB5
-Text HLabel 3150 3500 0    50   Input ~ 0
-PB3
-Text HLabel 3150 3600 0    50   Input ~ 0
-PA10
-Text HLabel 3150 3700 0    50   Input ~ 0
-PA2
-Text HLabel 3150 3800 0    50   Input ~ 0
+Text GLabel 2500 2800 0    50   Input ~ 0
 PA3
-Text HLabel 3150 3900 0    50   Input ~ 0
+Text GLabel 2500 2900 0    50   Input ~ 0
 GND
-Text HLabel 3150 4000 0    50   Input ~ 0
+Text GLabel 2500 3000 0    50   Input ~ 0
 PD13
-Text HLabel 3150 4100 0    50   Input ~ 0
+Text GLabel 2500 3100 0    50   Input ~ 0
 PD12
-Text HLabel 3150 4200 0    50   Input ~ 0
+Text GLabel 2500 3200 0    50   Input ~ 0
 PD11
-Text HLabel 3150 4300 0    50   Input ~ 0
+Text GLabel 2500 3300 0    50   Input ~ 0
 PE10
-Text HLabel 3150 4400 0    50   Input ~ 0
+Text GLabel 2500 3400 0    50   Input ~ 0
 PE12
-Text HLabel 3150 4500 0    50   Input ~ 0
+Text GLabel 2500 3500 0    50   Input ~ 0
 PE14
-Text HLabel 3150 4600 0    50   Input ~ 0
+Text GLabel 2500 3600 0    50   Input ~ 0
 PE15
-Text HLabel 3150 4700 0    50   Input ~ 0
+Text GLabel 2500 3700 0    50   Input ~ 0
 PE13
-Text HLabel 3150 4800 0    50   Input ~ 0
+Text GLabel 2500 3800 0    50   Input ~ 0
 PF13
-Text HLabel 3150 4900 0    50   Input ~ 0
+Text GLabel 2500 3900 0    50   Input ~ 0
 PF12
-Text HLabel 3150 5000 0    50   Input ~ 0
+Text GLabel 2500 4000 0    50   Input ~ 0
 PG14
-Text HLabel 3150 5100 0    50   Input ~ 0
+Text GLabel 2500 4100 0    50   Input ~ 0
 GND
-Text HLabel 3150 5200 0    50   Input ~ 0
-PD10
-Text HLabel 3150 5300 0    50   Input ~ 0
-PG7
-Text HLabel 3150 5400 0    50   Input ~ 0
+Text GLabel 2500 4400 0    50   Input ~ 0
 PG4
-Text HLabel 3150 5500 0    50   Input ~ 0
+Text GLabel 2500 4500 0    50   Input ~ 0
 GND
 $Comp
 L Connector_Generic:Conn_02x36_Odd_Even J2
 U 1 1 61D28094
-P 3350 3700
-F 0 "J2" H 3400 5617 50  0000 C CNN
-F 1 "C12_2X36" H 3400 5526 50  0000 C CNN
-F 2 "Connector_Samtec_HLE_THT:Samtec_HLE-136-02-xx-DV-TE_2x36_P2.54mm_Horizontal" H 3350 3700 50  0001 C CNN
-F 3 "~" H 3350 3700 50  0001 C CNN
-	1    3350 3700
+P 2700 2700
+F 0 "J2" H 2750 4617 50  0000 C CNN
+F 1 "C12_2X36" H 2750 4526 50  0000 C CNN
+F 2 "Connector_Samtec_HLE_THT:Samtec_HLE-136-02-xx-DV-TE_2x36_P2.54mm_Horizontal" H 2700 2700 50  0001 C CNN
+F 3 "~" H 2700 2700 50  0001 C CNN
+	1    2700 2700
 	1    0    0    -1  
 $EndComp
 Connection ~ 2500 9250
 Connection ~ 2500 10900
 Wire Wire Line
 	2500 10900 3400 10900
-Text HLabel 6800 9700 0    50   Input ~ 0
+Text GLabel 6800 9700 0    50   Input ~ 0
 PA4
 Wire Wire Line
 	4350 7700 4500 7700
@@ -1555,9 +1490,9 @@ F 4 "DEBUG COM ESP" H 3756 7287 50  0000 C CNN "DESC"
 $EndComp
 Wire Wire Line
 	3850 7000 4050 7000
-Text Notes 700  7950 0    50   ~ 0
+Text Notes 700  7650 0    50   ~ 0
 PC_RX
-Text Notes 700  7850 0    50   ~ 0
+Text Notes 700  7550 0    50   ~ 0
 PC_TX
 Wire Wire Line
 	3850 7100 4350 7100
@@ -1575,19 +1510,19 @@ Wire Wire Line
 	4350 7000 4500 7000
 Wire Wire Line
 	3850 7200 4450 7200
-Text HLabel 4050 7000 2    50   Input ~ 0
+Text GLabel 4050 7000 2    50   Input ~ 0
 VDD
 Text Notes 4600 10050 0    50   ~ 0
 RX
 Text Notes 4600 9950 0    50   ~ 0
 TX
-Text HLabel 7750 7350 2    50   Input ~ 0
+Text GLabel 7750 7350 2    50   Input ~ 0
 PE2
-Text HLabel 7750 7500 2    50   Input ~ 0
+Text GLabel 7750 7500 2    50   Input ~ 0
 PE6
-Text HLabel 7750 7650 2    50   Input ~ 0
+Text GLabel 7750 7650 2    50   Input ~ 0
 PE4
-Text HLabel 7750 7800 2    50   Input ~ 0
+Text GLabel 7750 7800 2    50   Input ~ 0
 PE13
 Wire Wire Line
 	4500 7100 4450 7100
@@ -1601,15 +1536,15 @@ Wire Wire Line
 	7500 7800 7750 7800
 Text Label 7400 7800 2    50   ~ 0
 SPICS
-Text HLabel 7750 7200 2    50   Input ~ 0
+Text GLabel 7750 7200 2    50   Input ~ 0
 PE5
 Wire Wire Line
 	7150 7300 7150 7200
 Wire Wire Line
 	7150 7200 7750 7200
-Text HLabel 900  10300 0    50   Input ~ 0
+Text GLabel 900  10300 0    50   Input ~ 0
 PB10
-Text HLabel 900  10150 0    50   Input ~ 0
+Text GLabel 900  10150 0    50   Input ~ 0
 PA5
 Wire Wire Line
 	900  10150 1000 10150
@@ -1708,19 +1643,19 @@ Wire Wire Line
 Wire Wire Line
 	6200 4900 5950 4900
 Connection ~ 6200 4900
-Text HLabel 5950 4900 0    50   Input ~ 0
+Text GLabel 5950 4900 0    50   Input ~ 0
 PE14
-Text HLabel 6800 5150 0    50   Input ~ 0
+Text GLabel 6800 5150 0    50   Input ~ 0
 PE10
 Wire Wire Line
 	6800 5150 6950 5150
 Wire Wire Line
 	7050 5350 6800 5350
-Text HLabel 6800 5350 0    50   Input ~ 0
+Text GLabel 6800 5350 0    50   Input ~ 0
 PE11
-Text HLabel 7700 5000 2    50   Input ~ 0
+Text GLabel 7700 5000 2    50   Input ~ 0
 PE3
-Text HLabel 7700 5150 2    50   Input ~ 0
+Text GLabel 7700 5150 2    50   Input ~ 0
 PE7
 Wire Wire Line
 	7000 4100 7700 4100
@@ -1858,7 +1793,7 @@ F 3 "" H 10400 7000 50  0001 C CNN
 	1    10400 7000
 	1    0    0    -1  
 $EndComp
-Text HLabel 12100 3850 1    50   Input ~ 0
+Text GLabel 12100 3850 1    50   Input ~ 0
 VDD
 Wire Wire Line
 	11950 4300 12100 4300
@@ -1868,9 +1803,9 @@ Wire Wire Line
 	9700 5000 9950 5000
 Wire Wire Line
 	9950 5100 9700 5100
-Text HLabel 9700 5100 0    50   Input ~ 0
+Text GLabel 9700 5100 0    50   Input ~ 0
 PA0
-Text HLabel 9700 5000 0    50   Input ~ 0
+Text GLabel 9700 5000 0    50   Input ~ 0
 PC11
 Text Notes 9300 5050 0    50   ~ 0
 RX
@@ -1880,13 +1815,13 @@ Text Notes 8800 5200 0    50   ~ 0
 STM UART4
 Wire Wire Line
 	9800 4500 9950 4500
-Text HLabel 12150 5600 2    50   Input ~ 0
+Text GLabel 12150 5600 2    50   Input ~ 0
 PG0
 Wire Wire Line
 	11950 5600 12150 5600
 Wire Wire Line
 	11950 5500 12150 5500
-Text HLabel 12150 5500 2    50   Input ~ 0
+Text GLabel 12150 5500 2    50   Input ~ 0
 PG3
 Text Notes 9350 3700 0    50   ~ 0
 E180 J-LINK\nPORT\n
@@ -1935,7 +1870,7 @@ F 3 "" H 9900 4200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9900 3950 9900 4200
-Text HLabel 9950 3450 1    50   Input ~ 0
+Text GLabel 9950 3450 1    50   Input ~ 0
 VDD
 Wire Wire Line
 	9950 3650 9950 3450
@@ -1947,9 +1882,9 @@ Wire Wire Line
 	9700 5200 9950 5200
 Wire Wire Line
 	9950 5300 9700 5300
-Text HLabel 9700 5300 0    50   Input ~ 0
+Text GLabel 9700 5300 0    50   Input ~ 0
 PB15
-Text HLabel 9700 5200 0    50   Input ~ 0
+Text GLabel 9700 5200 0    50   Input ~ 0
 PC11
 Text Notes 9300 5350 0    50   ~ 0
 CTS
@@ -1963,11 +1898,11 @@ Text Notes 4350 6500 0    50   ~ 0
 CTS
 Text Notes 4350 6600 0    50   ~ 0
 RTS
-Text HLabel 9700 5800 0    50   Input ~ 0
+Text GLabel 9700 5800 0    50   Input ~ 0
 PG1
 Text Notes 9700 5800 0    50   ~ 0
 BAUDR
-Text HLabel 12150 5700 2    50   Input ~ 0
+Text GLabel 12150 5700 2    50   Input ~ 0
 PG4
 Text Notes 12100 5700 2    50   ~ 0
 AUX
@@ -1977,7 +1912,7 @@ Text Notes 12100 5600 2    50   ~ 0
 WAKE
 Text Notes 12150 5500 2    50   ~ 0
 TOUCH
-Text HLabel 12150 6400 2    50   Input ~ 0
+Text GLabel 12150 6400 2    50   Input ~ 0
 PG5
 Text Notes 12100 6400 2    50   ~ 0
 LINK\n
@@ -2007,11 +1942,11 @@ Wire Wire Line
 Connection ~ 12100 4000
 Wire Wire Line
 	12100 4000 12100 3850
-Text HLabel 12150 4600 2    50   Input ~ 0
+Text GLabel 12150 4600 2    50   Input ~ 0
 PG10
 Wire Wire Line
 	11950 4600 12150 4600
-Text HLabel 12150 5900 2    50   Input ~ 0
+Text GLabel 12150 5900 2    50   Input ~ 0
 PG12
 Wire Wire Line
 	11950 5900 12150 5900
@@ -2026,7 +1961,7 @@ F 3 "~" H 7700 6950 50  0001 C CNN
 	1    7700 6950
 	1    0    0    1   
 $EndComp
-Text HLabel 7950 6300 1    50   Input ~ 0
+Text GLabel 7950 6300 1    50   Input ~ 0
 VDD
 Wire Wire Line
 	7850 6950 7950 6950
@@ -2061,15 +1996,15 @@ Text Label 13000 6200 0    50   ~ 0
 SPI4_MOSI
 Text Notes 13300 5650 2    50   ~ 0
 SPI4 BUS\n
-Text HLabel 12950 6300 0    50   Input ~ 0
+Text GLabel 12950 6300 0    50   Input ~ 0
 PE2
-Text HLabel 12950 6200 0    50   Input ~ 0
+Text GLabel 12950 6200 0    50   Input ~ 0
 PE6
-Text HLabel 12950 6000 0    50   Input ~ 0
+Text GLabel 12950 6000 0    50   Input ~ 0
 PG14
 Text Label 13000 6000 0    50   ~ 0
 SPICS
-Text HLabel 12950 6100 0    50   Input ~ 0
+Text GLabel 12950 6100 0    50   Input ~ 0
 PE5
 Wire Wire Line
 	12950 6300 13450 6300
@@ -2079,13 +2014,13 @@ Wire Wire Line
 	13000 6100 13450 6100
 Wire Wire Line
 	12950 6000 13450 6000
-Text HLabel 12950 5900 0    50   Input ~ 0
+Text GLabel 12950 5900 0    50   Input ~ 0
 PB1
 Text Label 13000 5900 0    50   ~ 0
 IRQ
 Wire Wire Line
 	12950 5900 13450 5900
-Text HLabel 12950 5800 0    50   Input ~ 0
+Text GLabel 12950 5800 0    50   Input ~ 0
 PB5
 Text Label 13000 5800 0    50   ~ 0
 SHUTDOWN
@@ -2196,7 +2131,7 @@ Wire Wire Line
 	15350 6050 15400 6050
 Wire Wire Line
 	15800 5550 15800 5650
-Text HLabel 15800 5550 1    50   Input ~ 0
+Text GLabel 15800 5550 1    50   Input ~ 0
 VDD
 Wire Wire Line
 	15250 6100 15400 6100
@@ -2208,12 +2143,10 @@ Wire Wire Line
 	13400 6550 13400 6400
 Wire Wire Line
 	13400 6400 12950 6400
-Text HLabel 12950 6400 0    50   Input ~ 0
+Text GLabel 12950 6400 0    50   Input ~ 0
 PF2
 Text Label 13000 6400 0    50   ~ 0
 CTS
-Text HLabel 5350 2650 0    50   Input ~ 0
-AGND
 Text Notes 11700 2050 0    50   ~ 0
 0dB INPUT
 Text Notes 4950 8700 0    89   ~ 0
@@ -2522,8 +2455,6 @@ Wire Wire Line
 Wire Wire Line
 	12700 3150 12550 3150
 Wire Wire Line
-	12550 3150 12550 3200
-Wire Wire Line
 	12550 3350 11850 3350
 Connection ~ 11850 3350
 $Comp
@@ -2697,8 +2628,6 @@ Wire Wire Line
 	11250 9050 11250 9450
 Text Notes 8600 7500 0    50   ~ 0
 EXTERNAL REGULATED +5V SUPPLY
-Text HLabel 10750 7750 2    50   Input ~ 0
-E5V
 $Comp
 L Device:Ferrite_Bead FB1
 U 1 1 61CAF7CB
@@ -2767,7 +2696,7 @@ $Comp
 L Device:Opamp_Quad_Generic U5
 U 5 1 6219A4EE
 P 11550 1300
-F 0 "U5" H 11550 1667 50  0000 C CNN
+F 0 "U5" H 11900 1700 50  0000 C CNN
 F 1 "Opamp_Quad_MCP6024" H 11550 1576 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 11550 1300 50  0001 C CNN
 F 3 "~" H 11550 1300 50  0001 C CNN
@@ -2790,19 +2719,19 @@ Text Notes 3900 9400 0    50   ~ 0
 EBAY MINATURE\nNEO7M MODULE (NO ANTENNA)\nMODULE SMA CONN
 Wire Wire Line
 	6150 10500 5950 10500
-Text HLabel 5950 10500 0    50   Input ~ 0
+Text GLabel 5950 10500 0    50   Input ~ 0
 VDD
 Text Notes 5750 10400 0    50   ~ 0
 I2C1_SCL
 Wire Wire Line
 	6150 10600 5950 10600
-Text HLabel 5750 10200 0    50   Input ~ 0
+Text GLabel 5750 10200 0    50   Input ~ 0
 PC8
 Text Notes 5750 10200 0    50   ~ 0
 INT1
 Wire Wire Line
 	5750 10200 6150 10200
-Text HLabel 5750 10100 0    50   Input ~ 0
+Text GLabel 5750 10100 0    50   Input ~ 0
 PB9
 Text Notes 5750 10100 0    50   ~ 0
 INT2
@@ -2816,13 +2745,10 @@ Connection ~ 5950 10900
 Wire Wire Line
 	5950 10900 9700 10900
 Wire Wire Line
-	5350 2650 5800 2650
-Wire Wire Line
 	13500 850  13500 950 
 Wire Wire Line
 	13500 950  13600 950 
 Connection ~ 13500 850 
-Connection ~ 5800 2650
 Wire Wire Line
 	5800 2650 5950 2650
 Wire Wire Line
@@ -2840,7 +2766,7 @@ LIGHTNING RECEIVER FRONT END
 Text Notes 7350 5600 0    89   ~ 0
 SERIAL FLASH ROM\n  AND NVRAM
 Text Notes 12200 10300 0    89   Italic 0
-VER 0.04: ALMOST FROZEN
+VER 0.05: ALMOST FROZEN - ERC Checks
 $Comp
 L Connector_Generic:Conn_01x02 J14
 U 1 1 61992824
@@ -2855,7 +2781,7 @@ $EndComp
 Wire Wire Line
 	10850 10650 10950 10650
 Connection ~ 10850 10650
-Text HLabel 11050 11000 2    50   Input ~ 0
+Text GLabel 11050 11000 2    50   Input ~ 0
 GND
 Wire Wire Line
 	10950 10750 10950 11000
@@ -2863,11 +2789,6 @@ Wire Wire Line
 	10950 11000 11050 11000
 Text Notes 10650 8450 0    50   ~ 0
 3V3 Regulator - 5A ???
-Wire Wire Line
-	12400 3200 12550 3200
-Connection ~ 12550 3200
-Wire Wire Line
-	12550 3200 12550 3350
 $Comp
 L Connector:Screw_Terminal_01x02 J17
 U 1 1 619A3715
@@ -2897,8 +2818,6 @@ Connection ~ 15150 9450
 Wire Wire Line
 	15150 9450 15700 9450
 Wire Wire Line
-	14900 9450 15150 9450
-Wire Wire Line
 	14700 8800 14700 8500
 Wire Wire Line
 	14300 8500 14700 8500
@@ -2908,8 +2827,6 @@ Wire Wire Line
 Wire Wire Line
 	14700 9100 14700 9450
 Connection ~ 14700 9450
-Wire Wire Line
-	14700 9450 14900 9450
 $Comp
 L power:GND #PWR0101
 U 1 1 61E056CF
@@ -2948,7 +2865,7 @@ $EndComp
 Connection ~ 12100 7950
 Wire Wire Line
 	12100 7950 12300 7950
-Text HLabel 12500 8700 1    50   Input ~ 0
+Text GLabel 12500 8700 1    50   Input ~ 0
 VDD
 Wire Wire Line
 	12500 8700 12500 8750
@@ -3004,8 +2921,6 @@ Wire Wire Line
 Connection ~ 9300 7850
 Wire Wire Line
 	10500 8500 10500 8750
-Text HLabel 9600 8500 0    50   Input ~ 0
-+5V
 Wire Wire Line
 	10300 7750 10750 7750
 Wire Wire Line
@@ -3013,72 +2928,72 @@ Wire Wire Line
 $Comp
 L Connector:Conn_01x04_Male J13
 U 1 1 62D151F9
-P 1050 8700
-F 0 "J13" H 1156 9069 50  0000 C CNN
-F 1 "Conn_01x04_Male" H 1156 8978 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 1050 8700 50  0001 C CNN
-F 3 "~" H 1050 8700 50  0001 C CNN
-F 4 "USER COM7" H 1156 8887 50  0000 C CNN "DESC"
-	1    1050 8700
+P 1050 8550
+F 0 "J13" H 1156 8919 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 1156 8828 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 1050 8550 50  0001 C CNN
+F 3 "~" H 1050 8550 50  0001 C CNN
+F 4 "USER COM7" H 1156 8737 50  0000 C CNN "DESC"
+	1    1050 8550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1250 8600 1600 8600
+	1250 8450 1600 8450
 Wire Wire Line
-	1250 8700 1600 8700
-Text HLabel 1600 8600 2    50   Input ~ 0
+	1250 8550 1600 8550
+Text GLabel 1600 8450 2    50   Input ~ 0
 VDD
-Text HLabel 1600 8700 2    50   Input ~ 0
+Text Label 1600 8550 0    50   ~ 0
 PF6
-Text HLabel 1600 8800 2    50   Input ~ 0
+Text GLabel 1600 8650 2    50   Input ~ 0
 PF7
-Text HLabel 1600 8900 2    50   Input ~ 0
+Text GLabel 1600 8750 2    50   Input ~ 0
 GND
 Wire Wire Line
-	1250 8800 1600 8800
+	1250 8650 1600 8650
 Wire Wire Line
-	1250 8900 1600 8900
-Text Notes 750  8850 0    50   ~ 0
+	1250 8750 1600 8750
+Text Notes 750  8700 0    50   ~ 0
 PC_RX
-Text Notes 750  8750 0    50   ~ 0
+Text Notes 750  8600 0    50   ~ 0
 PC_TX
 $Comp
 L Connector:Conn_01x03_Male J9
 U 1 1 630317BA
-P 1050 6950
-F 0 "J9" H 1023 6880 50  0000 R CNN
-F 1 "Conn_01x03_Male" H 1400 7150 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1050 6950 50  0001 C CNN
-F 3 "~" H 1050 6950 50  0001 C CNN
-F 4 "USER I2C" H 1050 6950 50  0001 C CNN "DESC"
-	1    1050 6950
+P 1150 6500
+F 0 "J9" H 1123 6430 50  0000 R CNN
+F 1 "Conn_01x03_Male" H 1500 6700 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1150 6500 50  0001 C CNN
+F 3 "~" H 1150 6500 50  0001 C CNN
+F 4 "USER I2C" H 1150 6500 50  0001 C CNN "DESC"
+	1    1150 6500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1250 6850 1450 6850
+	1350 6400 1550 6400
 Wire Wire Line
-	1250 6950 1450 6950
+	1350 6500 1550 6500
 Wire Wire Line
-	1250 7050 1450 7050
+	1350 6600 1550 6600
 $Comp
 L power:GND #PWR0103
 U 1 1 63266757
-P 1450 7250
-F 0 "#PWR0103" H 1450 7000 50  0001 C CNN
-F 1 "GND" H 1455 7077 50  0000 C CNN
-F 2 "" H 1450 7250 50  0001 C CNN
-F 3 "" H 1450 7250 50  0001 C CNN
-	1    1450 7250
+P 1550 6800
+F 0 "#PWR0103" H 1550 6550 50  0001 C CNN
+F 1 "GND" H 1555 6627 50  0000 C CNN
+F 2 "" H 1550 6800 50  0001 C CNN
+F 3 "" H 1550 6800 50  0001 C CNN
+	1    1550 6800
 	1    0    0    -1  
 $EndComp
-Text HLabel 1450 6850 2    50   Input ~ 0
+Text GLabel 1550 6400 2    50   Input ~ 0
 PF1
-Text HLabel 1450 6950 2    50   Input ~ 0
+Text GLabel 1550 6500 2    50   Input ~ 0
 PF0
-Text Notes 1700 7050 0    50   ~ 0
+Text Notes 1800 6600 0    50   ~ 0
 USER I2C2 BUS\nSCL\nSDA\n
 Wire Wire Line
-	1450 7050 1450 7250
+	1550 6600 1550 6800
 $Comp
 L Device:Ferrite_Bead FB4
 U 1 1 63597DFE
@@ -3094,67 +3009,251 @@ Wire Wire Line
 	10000 8150 10000 8650
 Wire Wire Line
 	10000 8950 10000 9450
-Text HLabel 1050 6050 0    50   Input ~ 0
+Text GLabel 1200 5400 0    50   Input ~ 0
 PD1
 Wire Wire Line
-	1050 5950 1200 5950
+	1200 5300 1350 5300
 $Comp
 L Connector_Generic:Conn_02x04_Odd_Even J15
 U 1 1 63877BF5
-P 1400 6050
-F 0 "J15" H 1450 6367 50  0000 C CNN
-F 1 "Conn_01x02" H 1450 6276 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 1400 6050 50  0001 C CNN
-F 3 "~" H 1400 6050 50  0001 C CNN
-	1    1400 6050
+P 1550 5400
+F 0 "J15" H 1600 5717 50  0000 C CNN
+F 1 "Conn_01x02" H 1600 5626 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 1550 5400 50  0001 C CNN
+F 3 "~" H 1550 5400 50  0001 C CNN
+	1    1550 5400
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0104
 U 1 1 63AB5CF9
-P 1800 6400
-F 0 "#PWR0104" H 1800 6150 50  0001 C CNN
-F 1 "GND" H 1805 6227 50  0000 C CNN
-F 2 "" H 1800 6400 50  0001 C CNN
-F 3 "" H 1800 6400 50  0001 C CNN
-	1    1800 6400
+P 1950 5750
+F 0 "#PWR0104" H 1950 5500 50  0001 C CNN
+F 1 "GND" H 1955 5577 50  0000 C CNN
+F 2 "" H 1950 5750 50  0001 C CNN
+F 3 "" H 1950 5750 50  0001 C CNN
+	1    1950 5750
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	1800 6250 1700 6250
-Text HLabel 1050 6150 0    50   Input ~ 0
+	1950 5600 1850 5600
+Text GLabel 1200 5500 0    50   Input ~ 0
 PC9
 Wire Wire Line
-	1050 6050 1200 6050
-Text HLabel 1700 5950 2    50   Input ~ 0
+	1200 5400 1350 5400
+Text GLabel 1850 5300 2    50   Input ~ 0
 PF13
 Wire Wire Line
-	1050 6150 1200 6150
+	1200 5500 1350 5500
 Wire Wire Line
-	1050 6250 1200 6250
-Text HLabel 1050 6250 0    50   Input ~ 0
+	1200 5600 1350 5600
+Text GLabel 1200 5600 0    50   Input ~ 0
 PF12
-Text Notes 700  5900 0    50   ~ 0
+Text Notes 850  5250 0    50   ~ 0
 PROBE1\n
-Text HLabel 1700 6050 2    50   Input ~ 0
+Text GLabel 1850 5400 2    50   Input ~ 0
 PE12
-Text Notes 700  6400 0    50   ~ 0
+Text Notes 850  5750 0    50   ~ 0
 PROBE4\n
-Text Notes 2000 5950 0    50   ~ 0
+Text Notes 2150 5300 0    50   ~ 0
 PROBE5\n
-Text HLabel 1700 6150 2    50   Input ~ 0
+Text GLabel 1850 5500 2    50   Input ~ 0
 PF11
-Text Notes 2000 6200 0    50   ~ 0
+Text Notes 2150 5550 0    50   ~ 0
 PROBE7\n
 Wire Wire Line
-	1800 6250 1800 6400
-Text Notes 1850 8750 0    50   ~ 0
+	1950 5600 1950 5750
+Text Notes 1850 8600 0    50   ~ 0
 USER COM PORT\n
-Text Notes 1850 7950 0    50   ~ 0
+Text Notes 1850 7650 0    50   ~ 0
 DEBUG/CONSOLE\nCOM PORT\n
 Connection ~ 13300 7950
 Wire Wire Line
 	13300 7950 14750 7950
 Wire Wire Line
 	13000 7950 13300 7950
+NoConn ~ 2500 1300
+NoConn ~ 3000 1300
+NoConn ~ 3000 1200
+NoConn ~ 3000 1400
+NoConn ~ 3000 1500
+NoConn ~ 3000 1600
+NoConn ~ 3000 1800
+NoConn ~ 2500 1700
+NoConn ~ 2500 1600
+NoConn ~ 2500 1900
+NoConn ~ 2500 2000
+NoConn ~ 2500 2100
+NoConn ~ 1650 1500
+NoConn ~ 1650 1600
+NoConn ~ 1650 1700
+NoConn ~ 1650 1100
+NoConn ~ 1650 2100
+NoConn ~ 1150 1300
+NoConn ~ 1150 1600
+NoConn ~ 1150 1700
+NoConn ~ 1150 1800
+NoConn ~ 1150 2000
+NoConn ~ 1150 2100
+NoConn ~ 1150 2200
+NoConn ~ 1150 2300
+NoConn ~ 1150 2600
+NoConn ~ 1150 2500
+NoConn ~ 1150 2400
+NoConn ~ 1650 2400
+NoConn ~ 1650 2600
+NoConn ~ 1650 2700
+NoConn ~ 1650 2800
+NoConn ~ 1150 2900
+NoConn ~ 1150 3200
+NoConn ~ 1150 3800
+NoConn ~ 1650 3600
+NoConn ~ 1650 4300
+NoConn ~ 1150 4300
+NoConn ~ 1650 4400
+NoConn ~ 1150 4400
+NoConn ~ 2500 4200
+NoConn ~ 2500 4300
+NoConn ~ 3000 4400
+NoConn ~ 3000 3900
+NoConn ~ 3000 3800
+NoConn ~ 3000 3500
+NoConn ~ 3000 3400
+NoConn ~ 3000 3000
+NoConn ~ 3000 2800
+NoConn ~ 3000 2700
+NoConn ~ 3000 2300
+NoConn ~ 3000 2400
+NoConn ~ 3000 2600
+NoConn ~ 2500 2500
+NoConn ~ 2500 2600
+NoConn ~ 11950 5000
+NoConn ~ 11950 4900
+NoConn ~ 11950 4800
+NoConn ~ 11950 5200
+NoConn ~ 9950 5400
+NoConn ~ 9950 5500
+NoConn ~ 9950 5700
+NoConn ~ 11950 6300
+NoConn ~ 11950 6200
+NoConn ~ 11950 6100
+NoConn ~ 11950 6000
+NoConn ~ 9950 6100
+NoConn ~ 9950 5900
+NoConn ~ 9950 6000
+NoConn ~ 11950 5300
+NoConn ~ 11950 5400
+NoConn ~ 15250 6200
+NoConn ~ 15250 5800
+NoConn ~ 14000 950 
+Text Label 3000 1200 0    50   ~ 0
+PC5
+Text Label 3000 1300 0    50   ~ 0
+U5V
+Text Label 2500 4300 2    50   ~ 0
+PG7
+Text Label 3000 4400 0    50   ~ 0
+PG6
+Text GLabel 1650 4200 2    50   Input ~ 0
+PG10
+Text Label 2500 4200 2    50   ~ 0
+PD10
+Text Label 3000 3900 0    50   ~ 0
+PF15
+Text Label 3000 3000 0    50   ~ 0
+PF10
+Text Label 2500 2600 2    50   ~ 0
+PA10
+Text Label 1150 4300 2    50   ~ 0
+PH2
+Text Label 1150 4400 2    50   ~ 0
+PD9
+Text Label 3000 2300 0    50   ~ 0
+PB14
+Text Label 3000 2400 0    50   ~ 0
+PB13
+Text Label 2500 2700 2    50   ~ 0
+PA2
+Text Label 2500 2500 2    50   ~ 0
+PB3
+Text Label 3000 2600 0    50   ~ 0
+PC4
+Text Label 3000 2700 0    50   ~ 0
+PF5
+Text Label 3000 2800 0    50   ~ 0
+PF4
+NoConn ~ 14000 1050
+NoConn ~ 6650 6700
+NoConn ~ 2500 2700
+NoConn ~ 13600 1050
+$Comp
+L power:GNDA #PWR0105
+U 1 1 64516E8C
+P 10550 1750
+F 0 "#PWR0105" H 10550 1500 50  0001 C CNN
+F 1 "GNDA" H 10555 1577 50  0000 C CNN
+F 2 "" H 10550 1750 50  0001 C CNN
+F 3 "" H 10550 1750 50  0001 C CNN
+	1    10550 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR0106
+U 1 1 6451C4EF
+P 12550 3200
+F 0 "#PWR0106" H 12550 2950 50  0001 C CNN
+F 1 "GNDA" V 12555 3073 50  0000 R CNN
+F 2 "" H 12550 3200 50  0001 C CNN
+F 3 "" H 12550 3200 50  0001 C CNN
+	1    12550 3200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12550 3150 12550 3200
+Connection ~ 12550 3200
+Wire Wire Line
+	12550 3200 12550 3350
+$Comp
+L power:GNDA #PWR0107
+U 1 1 6466C53B
+P 6400 2650
+F 0 "#PWR0107" H 6400 2400 50  0001 C CNN
+F 1 "GNDA" H 6405 2477 50  0000 C CNN
+F 2 "" H 6400 2650 50  0001 C CNN
+F 3 "" H 6400 2650 50  0001 C CNN
+	1    6400 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 2100 6400 2650
+$Comp
+L power:GNDA #PWR0108
+U 1 1 6476809A
+P 14700 9450
+F 0 "#PWR0108" H 14700 9200 50  0001 C CNN
+F 1 "GNDA" H 14705 9277 50  0000 C CNN
+F 2 "" H 14700 9450 50  0001 C CNN
+F 3 "" H 14700 9450 50  0001 C CNN
+	1    14700 9450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14700 9450 15150 9450
+$Comp
+L power:GNDA #PWR0109
+U 1 1 648B7644
+P 3000 2500
+F 0 "#PWR0109" H 3000 2250 50  0001 C CNN
+F 1 "GNDA" H 3005 2327 50  0000 C CNN
+F 2 "" H 3000 2500 50  0001 C CNN
+F 3 "" H 3000 2500 50  0001 C CNN
+	1    3000 2500
+	0    -1   -1   0   
+$EndComp
+Text GLabel 10750 7750 2    50   Input ~ 0
++5V
+Text GLabel 9600 8500 0    50   Input ~ 0
++5V
+Text GLabel 1650 1200 2    50   Input ~ 0
++5V
 $EndSCHEMATC
