@@ -807,7 +807,7 @@ Wire Wire Line
 	14150 6750 14500 6750
 Connection ~ 14150 6750
 $Comp
-L stmsplat2-rescue:DS2485-splatlib U9
+L stmsplat2-custom:DS2485 U9
 U 1 1 61A5CBC2
 P 12750 6850
 F 0 "U9" H 13000 7128 50  0000 C CNN
@@ -859,7 +859,7 @@ Wire Wire Line
 Text Notes 7500 10600 0    50   ~ 0
 UART 5
 $Comp
-L stmsplat2-rescue:ESP32-C3-13-Espressif U2
+L stmsplat2-custom:ESP32-C3-13-Espressif U2
 U 1 1 6186BFAC
 P 5600 7250
 F 0 "U2" H 5625 8665 50  0000 C CNN
@@ -908,7 +908,7 @@ Wire Wire Line
 Wire Wire Line
 	12650 2750 12700 2750
 $Comp
-L stmsplat2-rescue:MCP6S93-X_UN-splatsyms U8
+L stmsplat2-custom:MCP6S93-X_UN U8
 U 1 1 5BD7F0EC
 P 12700 2750
 F 0 "U8" H 13500 3137 60  0000 C CNN
@@ -1020,7 +1020,7 @@ Connection ~ 6950 2650
 Wire Wire Line
 	6400 950  6400 1900
 $Comp
-L stmsplat2-rescue:XCVR_E30-400M20S-splatlib U10
+L stmsplat2-custom:XCVR_E30-400M20S U10
 U 1 1 61888ACD
 P 14300 5350
 F 0 "U10" H 14350 6515 50  0000 C CNN
@@ -1031,7 +1031,7 @@ F 3 "" H 14450 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L stmsplat2-rescue:48L512-48LM01-splatlib U4
+L stmsplat2-custom:48L512-48LM01 U4
 U 1 1 618C0AC4
 P 8400 4100
 F 0 "U4" H 8400 4770 50  0000 C CNN
@@ -1043,7 +1043,7 @@ F 4 "Microchip" H 8400 4100 50  0001 L BNN "MANUFACTURER"
 	1    0    0    -1  
 $EndComp
 $Comp
-L stmsplat2-rescue:SST25VF032B-splatlib U3
+L stmsplat2-custom:SST25VF032B U3
 U 1 1 618C0BE9
 P 6200 4100
 F 0 "U3" H 6200 4770 50  0000 C CNN
@@ -1571,7 +1571,7 @@ Connection ~ 1000 10300
 Wire Wire Line
 	2500 9250 3650 9250
 $Comp
-L stmsplat2-rescue:ublox_SAM-M8Q-splatsyms-stmsplat1-rescue-stmsplat2-rescue U1
+L stmsplat2-custom:ublox_SAM-M8Q U1
 U 1 1 5BD908A5
 P 3750 10100
 F 0 "U1" H 3750 10778 50  0000 C CNN
@@ -2235,7 +2235,7 @@ Text Notes 11800 2500 0    50   ~ 0
 Wire Wire Line
 	9950 5800 9700 5800
 $Comp
-L stmsplat2-rescue:E180-ZG120A-splatlib U6
+L stmsplat2-custom:E180-ZG120A U6
 U 1 1 61E29CE2
 P 10950 5400
 F 0 "U6" H 10950 6767 50  0000 C CNN
@@ -2609,7 +2609,7 @@ Wire Wire Line
 Text Notes 5600 5050 0    50   ~ 0
 WRITE PROT
 $Comp
-L stmsplat2-rescue:AZ1084C-splatlib U7
+L stmsplat2-custom:AZ1084C U7
 U 1 1 6193E391
 P 11250 8750
 F 0 "U7" H 11250 8992 50  0000 C CNN
@@ -2763,7 +2763,7 @@ LIGHTNING RECEIVER FRONT END
 Text Notes 7350 5600 0    89   ~ 0
 SERIAL FLASH ROM\n  AND NVRAM
 Text Notes 12200 10300 0    89   Italic 0
-VER 0.05: ALMOST FROZEN - ERC Checks
+VER 0.06: ALMOST FROZEN - Use custom library
 $Comp
 L Connector_Generic:Conn_01x02 J14
 U 1 1 61992824

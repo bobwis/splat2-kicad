@@ -1,4 +1,3 @@
-testimng
 Info: Processing component “J15:/63877BF5:Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical”.
 
 Info: Processing component “C4:/5BF5E583:Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder”.

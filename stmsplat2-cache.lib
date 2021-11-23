@@ -732,11 +732,11 @@ X pwr 1 0 0 0 U 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #
-# stmsplat2-rescue_48L512-48LM01-splatlib
+# stmsplat2-custom_48L512-48LM01
 #
-DEF stmsplat2-rescue_48L512-48LM01-splatlib U 0 40 Y Y 1 L N
+DEF stmsplat2-custom_48L512-48LM01 U 0 40 Y Y 1 L N
 F0 "U" -211 659 50 H V L BNN
-F1 "stmsplat2-rescue_48L512-48LM01-splatlib" -144 -892 50 H V L BNN
+F1 "stmsplat2-custom_48L512-48LM01" -144 -892 50 H V L BNN
 F2 "SOIC127P790X216-8N" 0 0 50 H I L BNN
 F3 "" 0 0 50 H I L BNN
 F4 "Microchip" 0 0 50 H I L BNN "MANUFACTURER"
@@ -753,11 +753,11 @@ X VCC 8 -700 300 200 R 40 40 0 0 W
 ENDDRAW
 ENDDEF
 #
-# stmsplat2-rescue_AZ1084C-splatlib
+# stmsplat2-custom_AZ1084C
 #
-DEF stmsplat2-rescue_AZ1084C-splatlib U 0 10 Y Y 1 F N
+DEF stmsplat2-custom_AZ1084C U 0 10 Y Y 1 F N
 F0 "U" -150 125 50 H V C CNN
-F1 "stmsplat2-rescue_AZ1084C-splatlib" 0 125 50 H V L CNN
+F1 "stmsplat2-custom_AZ1084C" 0 125 50 H V L CNN
 F2 "Package_TO_SOT_SMD:TO-252-2" 0 225 50 H I C CIN
 F3 "" 0 -50 50 H I C CNN
 $FPLIST
@@ -771,11 +771,11 @@ X VI 3 -300 0 100 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# stmsplat2-rescue_DS2485-splatlib
+# stmsplat2-custom_DS2485
 #
-DEF stmsplat2-rescue_DS2485-splatlib U 0 40 Y Y 1 F N
+DEF stmsplat2-custom_DS2485 U 0 40 Y Y 1 F N
 F0 "U" 50 50 50 H V C CNN
-F1 "stmsplat2-rescue_DS2485-splatlib" 50 -50 50 H V C CNN
+F1 "stmsplat2-custom_DS2485" 50 -50 50 H V C CNN
 F2 "" 50 50 50 H I C CNN
 F3 "" 50 50 50 H I C CNN
 DRAW
@@ -789,11 +789,11 @@ X VCC 6 250 100 200 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# stmsplat2-rescue_E180-ZG120A-splatlib
+# stmsplat2-custom_E180-ZG120A
 #
-DEF stmsplat2-rescue_E180-ZG120A-splatlib U 0 40 Y Y 1 L N
+DEF stmsplat2-custom_E180-ZG120A U 0 40 Y Y 1 L N
 F0 "U" -650 1250 50 H V L BNN
-F1 "stmsplat2-rescue_E180-ZG120A-splatlib" -300 1350 50 H V L BNN
+F1 "stmsplat2-custom_E180-ZG120A" -300 1350 50 H V L BNN
 F2 "XCVR_E180-ZG120A" 0 0 50 H I L BNN
 F3 "" 0 0 50 H I L BNN
 F4 "Manufacturer Recommendations" 0 0 50 H I L BNN "STANDARD"
@@ -847,11 +847,11 @@ X PD14/WAKE 9 1000 -200 200 L 40 40 0 0 B
 ENDDRAW
 ENDDEF
 #
-# stmsplat2-rescue_ESP32-C3-13-Espressif
+# stmsplat2-custom_ESP32-C3-13-Espressif
 #
-DEF stmsplat2-rescue_ESP32-C3-13-Espressif U 0 40 Y Y 1 F N
+DEF stmsplat2-custom_ESP32-C3-13-Espressif U 0 40 Y Y 1 F N
 F0 "U" 0 1300 50 H V C CNN
-F1 "stmsplat2-rescue_ESP32-C3-13-Espressif" 0 -1200 50 H V C CNN
+F1 "stmsplat2-custom_ESP32-C3-13-Espressif" 0 -1200 50 H V C CNN
 F2 "Espressif:ESP32-C3-13" 0 -1300 50 H I C CNN
 F3 "" -2450 -1300 50 H I C CNN
 DRAW
@@ -877,11 +877,11 @@ X GND 9 1100 -950 100 L 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# stmsplat2-rescue_MCP6S93-X_UN-splatsyms
+# stmsplat2-custom_MCP6S93-X_UN
 #
-DEF stmsplat2-rescue_MCP6S93-X_UN-splatsyms U 0 10 Y Y 1 F N
+DEF stmsplat2-custom_MCP6S93-X_UN U 0 10 Y Y 1 F N
 F0 "U" 800 400 60 H V C CNN
-F1 "stmsplat2-rescue_MCP6S93-X_UN-splatsyms" 800 300 60 H V C CNN
+F1 "stmsplat2-custom_MCP6S93-X_UN" 800 300 60 H V C CNN
 F2 "MSOP10_MC" 800 240 60 H I C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -904,11 +904,11 @@ X SCK 9 1600 -100 300 L 59 59 1 0 I
 ENDDRAW
 ENDDEF
 #
-# stmsplat2-rescue_SST25VF032B-splatlib
+# stmsplat2-custom_SST25VF032B
 #
-DEF stmsplat2-rescue_SST25VF032B-splatlib U 0 40 Y Y 1 L N
+DEF stmsplat2-custom_SST25VF032B U 0 40 Y Y 1 L N
 F0 "U" -211 659 50 H V L BNN
-F1 "stmsplat2-rescue_SST25VF032B-splatlib" -144 -892 50 H V L BNN
+F1 "stmsplat2-custom_SST25VF032B" -144 -892 50 H V L BNN
 F2 "SOIC127P790X216-8N" 0 0 50 H I L BNN
 F3 "" 0 0 50 H I L BNN
 F4 "Microchip" 0 0 50 H I L BNN "MANUFACTURER"
@@ -925,11 +925,11 @@ X VDD 8 -700 300 200 R 40 40 0 0 W
 ENDDRAW
 ENDDEF
 #
-# stmsplat2-rescue_XCVR_E30-400M20S-splatlib
+# stmsplat2-custom_XCVR_E30-400M20S
 #
-DEF stmsplat2-rescue_XCVR_E30-400M20S-splatlib U 0 40 Y Y 1 F N
+DEF stmsplat2-custom_XCVR_E30-400M20S U 0 40 Y Y 1 F N
 F0 "U" 0 1050 50 H V C CNN
-F1 "stmsplat2-rescue_XCVR_E30-400M20S-splatlib" 0 -1150 50 H V C CNN
+F1 "stmsplat2-custom_XCVR_E30-400M20S" 0 -1150 50 H V C CNN
 F2 "XCVR_E30-400M20S" 0 -1250 50 H I C CNN
 F3 "" 150 -1250 50 H I C CNN
 DRAW
@@ -956,26 +956,6 @@ X GPIO2 6 950 -550 100 L 50 50 1 1 O
 X GPIO3 7 950 -650 100 L 50 50 1 1 O
 X GPIO1 8 950 -750 100 L 50 50 1 1 O
 X VCC 9 950 -950 100 L 50 50 1 1 W
-ENDDRAW
-ENDDEF
-#
-# stmsplat2-rescue_ublox_SAM-M8Q-splatsyms-stmsplat1-rescue-stmsplat2-rescue
-#
-DEF stmsplat2-rescue_ublox_SAM-M8Q-splatsyms-stmsplat1-rescue-stmsplat2-rescue U 0 20 Y Y 1 F N
-F0 "U" -350 450 50 H V C CNN
-F1 "stmsplat2-rescue_ublox_SAM-M8Q-splatsyms-stmsplat1-rescue-stmsplat2-rescue" 450 450 50 H V C CNN
-F2 "Blox_Neo7module" 0 -100 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- ublox*SAM?M8Q*
-$ENDFPLIST
-DRAW
-S -400 400 400 -400 0 1 10 f
-X VCC 1 -100 500 100 D 50 50 1 1 W
-X GND 2 0 -500 100 U 50 50 1 1 W
-X TXD 3 500 100 100 L 50 50 1 1 O
-X RXD 4 500 200 100 L 50 50 1 1 I
-X TIMEPULSE 5 -500 0 100 R 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
