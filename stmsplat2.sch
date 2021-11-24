@@ -864,7 +864,7 @@ U 1 1 6186BFAC
 P 5600 7250
 F 0 "U2" H 5625 8665 50  0000 C CNN
 F 1 "ESP-C3-13U" H 5625 8574 50  0000 C CNN
-F 2 "spatboard:ESP-C3-13" H 5600 5950 50  0001 C CNN
+F 2 "ESP-C3-13" H 5600 5950 50  0001 C CNN
 F 3 "https://docs.ai-thinker.com/_media/esp32/docs/esp-c3-13_specification.pdf" H 3150 5950 50  0001 C CNN
 	1    5600 7250
 	-1   0    0    -1  
