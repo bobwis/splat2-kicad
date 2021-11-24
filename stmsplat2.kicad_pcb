@@ -2956,7 +2956,7 @@
     )
   )
 
-  (module spatboard:ESP-C3-13 (layer F.Cu) (tedit 61877ECB) (tstamp 618BD2CD)
+  (module ESP-C3-13 (layer F.Cu) (tedit 61877ECB) (tstamp 618BD2CD)
     (at 104.3432 4.572 90)
     (descr http://espressif.com/sites/default/files/documentation/0c-esp-wroom-02_datasheet_en.pdf)
     (tags "ESP WROOM-02 espressif esp8266ex")
@@ -3093,7 +3093,7 @@
     )
   )
 
-  (module spatboard:NEO7_GPS_MODULE locked (layer F.Cu) (tedit 618A034A) (tstamp 618BD2AB)
+  (module NEO7_GPS_MODULE locked (layer F.Cu) (tedit 618A034A) (tstamp 618BD2AB)
     (at 50.292 169.672)
     (descr "Connector IDC Locked, 10 contacts, compatible header: PANCON HE10 (Series 50, (https://www.reboul.fr/storage/00003af6.pdf)")
     (tags "connector idc locked")
@@ -3149,7 +3149,7 @@
     )
   )
 
-  (module spatboard:PinHeader_1x04_P2.54mm_Vertical (layer F.Cu) (tedit 5C2ECEE2) (tstamp 618BD269)
+  (module PinHeader_1x04_P2.54mm_Vertical (layer F.Cu) (tedit 5C2ECEE2) (tstamp 618BD269)
     (at 24.8666 20.3454)
     (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x04 2.54mm single row")
@@ -3192,7 +3192,7 @@
     )
   )
 
-  (module spatboard:XCVR_E30-400M20S (layer F.Cu) (tedit 61860ACA) (tstamp 618BD1BC)
+  (module XCVR_E30-400M20S (layer F.Cu) (tedit 61860ACA) (tstamp 618BD1BC)
     (at 121.3866 164.846)
     (path /61888ACD)
     (fp_text reference U10 (at 0.2032 -1.8034) (layer F.SilkS)
@@ -4201,7 +4201,7 @@
     )
   )
 
-  (module spatboard:PinHeader_1x04_P2.54mm_Vertical (layer F.Cu) (tedit 5C2ECEE2) (tstamp 61895E44)
+  (module PinHeader_1x04_P2.54mm_Vertical (layer F.Cu) (tedit 5C2ECEE2) (tstamp 61895E44)
     (at 73.66 132.08)
     (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x04 2.54mm single row")
@@ -4244,7 +4244,7 @@
     )
   )
 
-  (module spatboard:PinHeader_1x04_P2.54mm_Vertical (layer F.Cu) (tedit 5C2ECEE2) (tstamp 61895E43)
+  (module PinHeader_1x04_P2.54mm_Vertical (layer F.Cu) (tedit 5C2ECEE2) (tstamp 61895E43)
     (at 177.196801 24.050001)
     (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x04 2.54mm single row")
@@ -4287,7 +4287,7 @@
     )
   )
 
-  (module spatboard:PinHeader_1x04_P2.54mm_Vertical (layer F.Cu) (tedit 5C2ECEE2) (tstamp 61895E2C)
+  (module PinHeader_1x04_P2.54mm_Vertical (layer F.Cu) (tedit 5C2ECEE2) (tstamp 61895E2C)
     (at 173.546801 24.050001)
     (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x04 2.54mm single row")
@@ -4770,7 +4770,7 @@
     )
   )
 
-  (module spatboard:PinHeader_1x04_P2.54mm_Vertical (layer F.Cu) (tedit 5C2ECEE2) (tstamp 6187E48B)
+  (module PinHeader_1x04_P2.54mm_Vertical (layer F.Cu) (tedit 5C2ECEE2) (tstamp 6187E48B)
     (at 46.793201 21.230601)
     (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x04 2.54mm single row")
