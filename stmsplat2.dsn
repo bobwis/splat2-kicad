@@ -1,9 +1,9 @@
-(pcb "C:\GitHub\splat2-kicad-1\stmsplat2.dsn"
+(pcb "C:\projects\lightning\kicad\splat2-kicad\stmsplat2.dsn"
   (parser
     (string_quote ")
     (space_in_quoted_tokens on)
     (host_cad "KiCad's Pcbnew")
-    (host_version "(5.1.10)-1")
+    (host_version "(5.1.12)-1")
   )
   (resolution um 10)
   (unit um)
@@ -24,6 +24,10 @@
       (path pcb 0  151994 -165634  51993.8 -165634  51993.8 -65633.6  151994 -65633.6
             151994 -165634)
     )
+    (keepout "" (polygon F.Cu 0  95250 -133350  77470 -133350  77470 -127000  95250 -127000
+            95250 -133350))
+    (keepout "" (polygon B.Cu 0  95250 -133350  77470 -133350  77470 -127000  95250 -127000
+            95250 -133350))
     (via "Via[0-1]_800:400_um")
     (rule
       (width 250)
@@ -49,14 +53,14 @@
       (place U2 86360 -147320 front 180 (PN "ESP-C3-13U"))
     )
     (component Resistor_SMD:R_0805_2012Metric
-      (place R16 68580 -73660 front 90 (PN 470R))
+      (place R16 68580 -74930 front 90 (PN 470R))
       (place R17 138762 -139700 front 0 (PN 470R))
-      (place R19 76403.2 -73660 front 270 (PN 470R))
+      (place R19 76403.2 -74930 front 270 (PN 470R))
     )
     (component Resistor_SMD:R_0805_2012Metric::1
-      (place R15 84734.4 -73660 front 270 (PN 470R))
-      (place R18 71932.8 -73660 front 270 (PN 470R))
-      (place R20 80645 -73660 front 270 (PN 470R))
+      (place R15 84734.4 -74930 front 270 (PN 470R))
+      (place R18 71932.8 -74930 front 270 (PN 470R))
+      (place R20 80645 -74930 front 270 (PN 470R))
     )
     (component PinHeader_1x04_P2.54mm_Vertical
       (place J6 107645 -109220 front 0 (PN Conn_01x04_Male))
@@ -67,19 +71,19 @@
       (place C1 101600 -109220 front 0 (PN 0.1uF))
       (place C19 110000 -144780 front 0 (PN 0.1uF))
       (place C14 122858 -111760 front 0 (PN 0.1uF))
-      (place R10 148666 -88900 front 0 (PN 10K))
+      (place R10 148666 -92710 front 0 (PN 10K))
       (place R12 141302 -147320 front 180 (PN 1K))
       (place R14 144041 -114910 front 0 (PN 470R))
-      (place R9 148643 -84632.8 front 0 (PN 22K))
-      (place R7 148922 -81280 front 0 (PN 4K7))
-      (place FB4 90502.5 -73660 front 0 (PN Ferrite_Bead))
+      (place R9 148643 -88442.8 front 0 (PN 22K))
+      (place R7 148922 -85090 front 0 (PN 4K7))
+      (place FB4 92710 -76200 front 180 (PN Ferrite_Bead))
       (place FB3 111760 -81280 front 0 (PN Ferrite_Bead))
     )
     (component Resistor_SMD:R_0805_2012Metric::2
       (place R2 106680 -124231 front 0 (PN 3K3))
       (place C21 91440 -96520 front 0 (PN 0.1uF))
-      (place C10 110158 -134620 front 0 (PN 0.1uF))
-      (place C16 126340 -96113.6 front 0 (PN 0.1uF))
+      (place C10 88900 -78740 front 0 (PN 0.1uF))
+      (place C16 126340 -97790 front 0 (PN 0.1uF))
       (place R11 70182.5 -101600 front 0 (PN 470R))
       (place R13 149479 -139700 front 0 (PN 100K))
       (place R4 76200 -157480 front 180 (PN 470R))
@@ -89,7 +93,7 @@
       (place FB2 116840 -69900.8 front 180 (PN Ferrite_Bead))
     )
     (component Capacitor_SMD:C_0603_1608Metric
-      (place C26 101600 -114300 front 0 (PN 0.1uF))
+      (place C26 145262 -96520 front 0 (PN 0.1uF))
     )
     (component Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder
       (place C24 101600 -81280 front 0 (PN 0.1uF))
@@ -100,7 +104,7 @@
       (place J9 68580 -134620 front 0 (PN Conn_01x03_Male))
     )
     (component Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical
-      (place J13 63500 -68580 front 0 (PN Conn_01x04_Male))
+      (place J13 63500 -69850 front 0 (PN Conn_01x04_Male))
     )
     (component Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical
       (place J15 96520 -162560 front 90 (PN Conn_01x02))
@@ -109,35 +113,35 @@
       (place J17 147853 -158725 front 180 (PN Screw_Terminal_01x02))
     )
     (component "TerminalBlock:TerminalBlock_Altech_AK300-3_P5.00mm"
-      (place J16 97383.6 -71983.6 front 0 (PN Screw_Terminal_01x03))
+      (place J16 97790 -71983.6 front 0 (PN Screw_Terminal_01x03))
     )
     (component Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
-      (place J14 126619 -104140 front 0 (PN Conn_01x02))
-      (place J11 148717 -95554.8 front 0 (PN Conn_01x02_Male))
+      (place J14 138430 -102870 front 0 (PN Conn_01x02))
+      (place J11 148590 -102870 front 0 (PN Conn_01x02_Male))
     )
     (component "Package_TO_SOT_SMD:TO-252-3_TabPin2"
-      (place U7 86360 -84260 front 270 (PN AZ1084C))
+      (place U7 86360 -87630 front 270 (PN AZ1084C))
     )
     (component "SOIC127P790X216-8N"
       (place U3 104623 -130429 front 0 (PN SST25VF032B))
       (place U4 104724 -140132 front 0 (PN "48L512-48LM01"))
     )
     (component Capacitor_SMD:CP_Elec_8x10
-      (place C25 141402 -106680 front 0 (PN 100uF))
+      (place C25 129540 -105410 front 0 (PN 100uF))
       (place C15 68580 -154940 front 0 (PN 100uF))
     )
     (component Capacitor_SMD:CP_Elec_8x10::1
       (place C11 73660 -88900 front 180 (PN 100uF))
     )
     (component Capacitor_SMD:C_0402_1005Metric
-      (place C22 96418.4 -137744 front 0 (PN 1uF))
+      (place C22 128270 -87630 front 0 (PN 1uF))
       (place C3 101600 -104140 front 180 (PN 1uF))
     )
     (component Capacitor_SMD:C_0402_1005Metric::1
       (place C18 103655 -134620 front 0 (PN 1uF))
     )
     (component Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder::1
-      (place C13 68580 -81280 front 0 (PN 470pF))
+      (place C13 83820 -78740 front 0 (PN 470pF))
       (place C6 134671 -82143.6 front 180 (PN 560pF))
       (place C7 129540 -82092.8 front 0 (PN 240pF))
     )
@@ -147,16 +151,16 @@
       (place C2 144780 -134620 front 180 (PN 10uF))
     )
     (component Capacitor_THT:CP_Radial_D5.0mm_P2.50mm::1
-      (place C23 68580 -121920 front 0 (PN 10uF))
+      (place C23 140970 -78740 front 0 (PN 10uF))
     )
     (component Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical::1
-      (place J10 132080 -104140 front 0 (PN Conn_01x03_Male))
+      (place J10 143510 -102870 front 0 (PN Conn_01x03_Male))
     )
     (component "Package_DFN_QFN:DFN-6-1EP_3x3mm_P1mm_EP1.5x2.4mm"
       (place U9 144780 -142240 front 0 (PN DS2485))
     )
     (component "Package_SO:MSOP-10_3x3mm_P0.5mm"
-      (place U8 126670 -90728.8 front 0 (PN "MCP6S93-X_UN"))
+      (place U8 126670 -92710 front 0 (PN "MCP6S93-X_UN"))
     )
     (component "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
       (place U5 141656 -87223.6 front 0 (PN Opamp_Quad_MCP6024))
@@ -181,7 +185,7 @@
       (place TP4 142240 -68580 front 0 (PN TestPoint))
     )
     (component Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder
-      (place C4 139700 -73355.2 front 90 (PN 47n))
+      (place C4 139700 -73355.2 front 180 (PN 47n))
       (place R3 123952 -68997.5 front 90 (PN 53R))
       (place L2 129286 -77216 front 0 (PN 1.5uH))
       (place L1 135041 -77216 front 0 (PN 620nH))
@@ -190,14 +194,14 @@
       (place J5 131851 -69697.6 front 0 (PN Conn_Coaxial))
     )
     (component "LED_SMD:LED_PLCC-2"
-      (place D9 68580 -68580 front 270 (PN LED))
+      (place D9 68580 -69850 front 270 (PN LED))
       (place D10 144780 -127000 front 0 (PN LED))
-      (place D7 76200 -68580 front 270 (PN LED))
+      (place D7 76200 -69850 front 270 (PN LED))
       (place D3 71120 -106680 front 0 (PN LED))
-      (place D4 91440 -68580 front 270 (PN LED))
+      (place D4 91440 -69850 front 270 (PN LED))
       (place D2 74700 -162560 front 0 (PN LED))
-      (place D5 86360 -68580 front 270 (PN LED))
-      (place D6 81280 -68580 front 270 (PN LED))
+      (place D5 86360 -69850 front 270 (PN LED))
+      (place D6 81280 -69850 front 270 (PN LED))
       (place D8 144680 -120650 front 0 (PN LED))
     )
     (component Resistor_SMD:R_2010_5025Metric_Pad1.52x2.65mm_HandSolder
@@ -208,14 +212,14 @@
       (place J3 63500 -134620 front 0 (PN Conn_01x04_Male))
       (place J4 81280 -162560 front 90 (PN Conn_01x04_Male))
       (place J8 63500 -84074 front 0 (PN Conn_01x04_Male))
-      (place J7 63500 -116840 front 0 (PN Conn_01x04_Male))
+      (place J7 63500 -118110 front 0 (PN Conn_01x04_Male))
     )
     (component "Connector_Samtec_HLE_THT:Samtec_HLE-136-02-xx-DV-TE_2x36_P2.54mm_Horizontal"
       (place J2 116281 -73583.8 back 90 (PN C12_2X36))
       (place J1 55321.2 -73583.8 back 90 (PN C11_2X36))
     )
     (component Diode_SMD:D_SMA_Handsoldering
-      (place D1 144780 -76200 front 90 (PN "SMAJ8.0CA Bourns 9V"))
+      (place D1 148590 -77510 front 90 (PN "SMAJ8.0CA Bourns 9V"))
     )
     (component Module:ST_Morpho_Connector_144_STLink_MountingHoles
       (place REF** -32943.8 -66217.8 front 0 (PN ST_Morpho_Connector_144_STLink_MountingHoles))
