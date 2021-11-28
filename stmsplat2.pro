@@ -1,4 +1,4 @@
-update=27/11/2021 13:50:50
+update=28/11/2021 14:10:34
 version=1
 last_client=kicad
 [general]
@@ -271,22 +271,33 @@ dPairWidth=0.25
 dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
-Name=40thou
+Name=20thou
 Clearance=0.2
-TrackWidth=1.016
+TrackWidth=0.508
 ViaDiameter=0.8
-ViaDrill=0.762
+ViaDrill=0.4
 uViaDiameter=0.3
 uViaDrill=0.1
 dPairWidth=0.25
 dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
+Name=40thou
+Clearance=0.2
+TrackWidth=1.016
+ViaDiameter=1.016
+ViaDrill=0.508
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.25
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/3]
 Name=80thou
 Clearance=0.2
 TrackWidth=2.032
-ViaDiameter=0.8
-ViaDrill=0.4
+ViaDiameter=1.524
+ViaDrill=0.762
 uViaDiameter=0.3
 uViaDrill=0.1
 dPairWidth=0.25
