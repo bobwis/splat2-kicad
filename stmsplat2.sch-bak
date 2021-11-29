@@ -487,13 +487,11 @@ Wire Wire Line
 Wire Wire Line
 	14300 3150 14900 3150
 Text GLabel 14900 2850 2    50   Input ~ 0
-PD3
+PC10
 Text GLabel 14900 2950 2    50   Input ~ 0
-PC2
+PB4
 Text GLabel 14900 3050 2    50   Input ~ 0
-PC3
-Text Label 15350 2950 2    50   ~ 0
-SPI2
+PB2
 Text GLabel 14900 3150 2    50   Input ~ 0
 PG2
 Text Label 3300 10250 2    50   ~ 0
@@ -971,20 +969,20 @@ Wire Wire Line
 	3800 7950 3950 7950
 Wire Wire Line
 	6650 6400 6700 6400
-Text GLabel 5350 3100 0    50   Input ~ 0
-PC10
-Text GLabel 5350 3250 0    50   Input ~ 0
-PB2
-Text GLabel 5350 2950 0    50   Input ~ 0
-PB4
-Text Notes 5050 3150 2    50   ~ 0
-SPI3_SCK
-Text Notes 5050 3300 2    50   ~ 0
-SPI3_MOSI
-Text Notes 5100 3000 2    50   ~ 0
-SPI3_MISO
+Text GLabel 4450 3100 0    50   Input ~ 0
+PD3
+Text GLabel 4450 3250 0    50   Input ~ 0
+PC3
+Text GLabel 4450 2950 0    50   Input ~ 0
+PC2
+Text Notes 4150 3150 2    50   ~ 0
+SPI2_SCK
+Text Notes 4150 3300 2    50   ~ 0
+SPI2_MOSI
+Text Notes 4150 3000 2    50   ~ 0
+SPI2_MISO
 Wire Wire Line
-	5350 2950 5500 2950
+	4450 2950 4700 2950
 Wire Wire Line
 	7000 4100 6900 4100
 Connection ~ 7000 4100
@@ -1610,11 +1608,9 @@ Wire Wire Line
 Wire Wire Line
 	6900 3800 7400 3800
 Wire Wire Line
-	5350 3100 7000 3100
-Wire Wire Line
 	7000 3100 7000 4100
 Wire Wire Line
-	5350 3250 7200 3250
+	4450 3250 4700 3250
 Wire Wire Line
 	7200 3250 7200 4000
 Wire Wire Line
@@ -2226,7 +2222,7 @@ F 3 "~" H 7150 6600 50  0001 C CNN
 $EndComp
 Text Notes 13150 2250 0    50   ~ 0
 PROG GAIN AMP
-Text Notes 14800 2600 0    50   ~ 0
+Text Notes 14850 2600 0    50   ~ 0
 STM ADC IN
 Wire Wire Line
 	15600 2300 15950 2300
@@ -2635,8 +2631,8 @@ Text Notes 7400 1100 0    89   ~ 0
 LIGHTNING RECEIVER FRONT END
 Text Notes 7400 5500 0    89   ~ 0
 SERIAL FLASH ROM\n  AND NVRAM
-Text Notes 11900 10500 0    89   Italic 0
-VER 0.10: FROZEN 
+Text Notes 12400 10400 0    89   Italic 0
+VER 0.13: FROZEN \nSPI2<->SPI3 SWAPPED
 $Comp
 L Connector_Generic:Conn_01x02 J14
 U 1 1 61992824
@@ -3224,7 +3220,7 @@ Connection ~ 4300 6400
 Wire Wire Line
 	4300 6400 4500 6400
 Wire Wire Line
-	5050 5000 5450 5000
+	5050 5000 5250 5000
 Wire Wire Line
 	5450 5000 5450 5450
 Wire Wire Line
@@ -3477,4 +3473,91 @@ Wire Wire Line
 Connection ~ 2650 10900
 Wire Wire Line
 	2650 10900 3400 10900
+Text Notes 15200 3050 0    50   ~ 0
+STM SPI3
+$Comp
+L Device:R R23
+U 1 1 61C7C13C
+P 4850 2950
+F 0 "R23" V 4800 2700 50  0000 L CNN
+F 1 "50R" V 4850 2900 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4780 2950 50  0001 C CNN
+F 3 "~" H 4850 2950 50  0001 C CNN
+	1    4850 2950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5000 2950 5500 2950
+Wire Wire Line
+	4450 3100 4700 3100
+$Comp
+L Device:R R24
+U 1 1 61D397A6
+P 4850 3100
+F 0 "R24" V 4800 2850 50  0000 L CNN
+F 1 "33R" V 4850 3050 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4780 3100 50  0001 C CNN
+F 3 "~" H 4850 3100 50  0001 C CNN
+	1    4850 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R25
+U 1 1 61D3A873
+P 4850 3250
+F 0 "R25" V 4800 3000 50  0000 L CNN
+F 1 "50R" V 4850 3200 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4780 3250 50  0001 C CNN
+F 3 "~" H 4850 3250 50  0001 C CNN
+	1    4850 3250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5000 3250 7200 3250
+Text Notes 4950 2800 2    50   ~ 0
+TERMINATION RESISTORS NEAR \nASSOCIATED J1 PIN
+$Comp
+L Device:R R26
+U 1 1 61DFF5CA
+P 5250 4500
+F 0 "R26" H 5320 4546 50  0000 L CNN
+F 1 "110R" H 5320 4455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5180 4500 50  0001 C CNN
+F 3 "~" H 5250 4500 50  0001 C CNN
+	1    5250 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C29
+U 1 1 61E0320B
+P 5250 4050
+F 0 "C29" H 5365 4096 50  0000 L CNN
+F 1 "470pF" H 5050 4200 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5288 3900 50  0001 C CNN
+F 3 "~" H 5250 4050 50  0001 C CNN
+	1    5250 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 3100 5250 3900
+Wire Wire Line
+	5000 3100 5250 3100
+Connection ~ 5250 3100
+Wire Wire Line
+	5250 3100 7000 3100
+Wire Wire Line
+	5250 4200 5250 4350
+Wire Wire Line
+	5250 4650 5250 5000
+Connection ~ 5250 5000
+Wire Wire Line
+	5250 5000 5450 5000
+Text Notes 5150 4350 2    50   ~ 0
+TERMINATION NETWORK\nNEAR RAM/ROM PINS
+Text Label 5800 2950 0    50   ~ 0
+SPI2_MISOT
+Text Label 5800 3100 0    50   ~ 0
+SPI2_SCKT
+Text Label 5800 3250 0    50   ~ 0
+SPI2_MOSIT
 $EndSCHEMATC

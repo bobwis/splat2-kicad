@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 70)
-    (start_pass_no 31)
+    (start_pass_no 274)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -37,6 +37,24 @@
     )
     (shape
       (circle B.Cu 800.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (padstack "Via[0-1]_1016:508_um"
+    (shape
+      (circle F.Cu 1016.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 1016.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (padstack "Via[0-1]_1524:762_um"
+    (shape
+      (circle F.Cu 1524.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 1524.0 0.0 0.0)
     )
     (attach off)
   )
@@ -66,6 +84,36 @@
       (circle B.Cu 800.0 0.0 0.0)
     )
     (attach off)
+  )
+  (via 
+    "Via[0-1]_1016:508_um" "Via[0-1]_1016:508_um" default
+  )
+  (via 
+    "Via[0-1]_1524:762_um" "Via[0-1]_1524:762_um" default
+  )
+  (via 
+    "Via[0-1]_1016:508_um-kicad_default" "Via[0-1]_1016:508_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_1524:762_um-kicad_default" "Via[0-1]_1524:762_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_1016:508_um-20thou" "Via[0-1]_1016:508_um" 20thou
+  )
+  (via 
+    "Via[0-1]_1524:762_um-20thou" "Via[0-1]_1524:762_um" 20thou
+  )
+  (via 
+    "Via[0-1]_1016:508_um-40thou" "Via[0-1]_1016:508_um" 40thou
+  )
+  (via 
+    "Via[0-1]_1524:762_um-40thou" "Via[0-1]_1524:762_um" 40thou
+  )
+  (via 
+    "Via[0-1]_1016:508_um-80thou" "Via[0-1]_1016:508_um" 80thou
+  )
+  (via 
+    "Via[0-1]_1524:762_um-80thou" "Via[0-1]_1524:762_um" 80thou
   )
   (via 
     "Via[0-1]_800:508_um" "Via[0-1]_800:508_um" default
@@ -171,7 +219,7 @@
     PB4 PB8 PC9 PG10 PG15 PE6 PG1 PF9
     PF2 PE5 PE2 PG3 PA0 NC PC11 PG12
     PG9 PE1 PG0 PD1 PF0 PF1 PE3 PD6
-    PD5 PF7 PC12 PC10
+    PD5 PF7 PC12 PC10 "Net-(C29-Pad2)" "/SPI2_SCKT" "/SPI2_MISOT" "/SPI2_MOSIT"
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule

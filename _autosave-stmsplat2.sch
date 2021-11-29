@@ -930,7 +930,7 @@ U 1 1 61888ACD
 P 14300 5350
 F 0 "U10" H 14350 6515 50  0000 C CNN
 F 1 "XCVR_E30-400M20S (Si4463)" H 14350 6424 50  0000 C CNN
-F 2 "XCVR_E30-400M20S" H 14300 4100 50  0001 C CNN
+F 2 "splat2footprints:XCVR_E30-400M20S" H 14300 4100 50  0001 C CNN
 F 3 "https://www.aliexpress.com/item/1005003341113107.html?spm=a2g0o.productlist.0.0.33ec1646kOjmw0&algo_pvid=cdcf01bc-679d-405a-bcd6-5e089ec52c01&algo_exp_id=cdcf01bc-679d-405a-bcd6-5e089ec52c01-11&pdp_ext_f=%7B%22sku_id%22%3A%2212000025304774495%22%7D" H 14450 4100 50  0001 C CNN
 F 4 "The module with the Si4463 (not Si4438) is prefered" H 14300 5350 50  0001 C CNN "Version"
 	1    14300 5350
