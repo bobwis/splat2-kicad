@@ -4,14 +4,14 @@
     fortyfive_degree
   )
   (autoroute_settings
-    (fanout on)
+    (fanout off)
     (eu.mihosoft.freerouting.autoroute on)
     (postroute on)
     (vias on)
     (via_costs 50)
     (plane_via_costs 5)
-    (start_ripup_costs 70)
-    (start_pass_no 274)
+    (start_ripup_costs 65)
+    (start_pass_no 894)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -22,7 +22,7 @@
       (active on)
       (preferred_direction vertical)
       (preferred_direction_trace_costs 1.0)
-      (against_preferred_direction_trace_costs 4.0)
+      (against_preferred_direction_trace_costs 3.0)
     )
   )
   (rule
@@ -58,6 +58,15 @@
     )
     (attach off)
   )
+  (padstack "Via[0-1]_800:762_um"
+    (shape
+      (circle F.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 800.0 0.0 0.0)
+    )
+    (attach off)
+  )
   (padstack "Via[0-1]_800:508_um"
     (shape
       (circle F.Cu 800.0 0.0 0.0)
@@ -76,14 +85,8 @@
     )
     (attach off)
   )
-  (padstack "Via[0-1]_800:762_um"
-    (shape
-      (circle F.Cu 800.0 0.0 0.0)
-    )
-    (shape
-      (circle B.Cu 800.0 0.0 0.0)
-    )
-    (attach off)
+  (via 
+    "Via[0-1]_800:762_um-20thou" "Via[0-1]_800:762_um" 20thou
   )
   (via 
     "Via[0-1]_1016:508_um" "Via[0-1]_1016:508_um" default

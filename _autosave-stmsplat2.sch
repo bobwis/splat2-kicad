@@ -66,13 +66,11 @@ F 3 "~" H 2250 10050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3650 9600 3650 9250
+	4050 9600 4050 9250
 Wire Wire Line
 	2250 9900 2250 9250
 Wire Wire Line
 	2250 10200 2250 10900
-Wire Wire Line
-	3750 10900 3750 10600
 Text GLabel 1300 10900 0    50   Input ~ 0
 GND
 Text GLabel 850  9250 0    50   Input ~ 0
@@ -220,12 +218,12 @@ $EndComp
 $Comp
 L Connector:TestPoint TP3
 U 1 1 5C0EE9E7
-P 4550 10900
-F 0 "TP3" H 4608 11020 50  0000 L CNN
-F 1 "TestPoint" H 4608 10929 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 4750 10900 50  0001 C CNN
-F 3 "~" H 4750 10900 50  0001 C CNN
-	1    4550 10900
+P 4800 10900
+F 0 "TP3" H 4858 11020 50  0000 L CNN
+F 1 "TestPoint" H 4858 10929 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 5000 10900 50  0001 C CNN
+F 3 "~" H 5000 10900 50  0001 C CNN
+	1    4800 10900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -397,9 +395,6 @@ F 3 "~" H 12200 9100 50  0001 C CNN
 	1    12200 9100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3750 10900 4100 10900
-Connection ~ 3750 10900
 Text GLabel 4000 6300 0    50   Input ~ 0
 PC6
 Text GLabel 4000 6400 0    50   Input ~ 0
@@ -447,16 +442,15 @@ $EndComp
 $Comp
 L Connector:TestPoint TP2
 U 1 1 5C399B72
-P 4100 10900
-F 0 "TP2" H 4158 11020 50  0000 L CNN
-F 1 "TestPoint" H 4158 10929 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 4300 10900 50  0001 C CNN
-F 3 "~" H 4300 10900 50  0001 C CNN
-	1    4100 10900
+P 4300 10900
+F 0 "TP2" H 4358 11020 50  0000 L CNN
+F 1 "TestPoint" H 4358 10929 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 4500 10900 50  0001 C CNN
+F 3 "~" H 4500 10900 50  0001 C CNN
+	1    4300 10900
 	1    0    0    -1  
 $EndComp
-Connection ~ 4100 10900
-Connection ~ 4550 10900
+Connection ~ 4300 10900
 $Comp
 L Connector:TestPoint TP13
 U 1 1 5C43FB2E
@@ -494,7 +488,7 @@ Text GLabel 14900 3050 2    50   Input ~ 0
 PB2
 Text GLabel 14900 3150 2    50   Input ~ 0
 PG2
-Text Label 3300 10250 2    50   ~ 0
+Text Label 3700 10250 2    50   ~ 0
 TPULSE
 $Comp
 L Device:C C8
@@ -611,14 +605,14 @@ PD5
 Text GLabel 1600 7750 2    50   Input ~ 0
 GND
 Wire Wire Line
-	4250 9900 4350 9900
+	4650 9900 4750 9900
 Wire Wire Line
-	4250 10000 4350 10000
-Text GLabel 4350 10000 2    50   Input ~ 0
+	4650 10000 4750 10000
+Text GLabel 4750 10000 2    50   Input ~ 0
 PE0
-Text GLabel 4350 9900 2    50   Input ~ 0
+Text GLabel 4750 9900 2    50   Input ~ 0
 PE1
-Text Notes 4800 9850 2    50   ~ 0
+Text Notes 5200 9850 2    50   ~ 0
 STM UART8
 $Comp
 L Device:Ferrite_Bead FB3
@@ -753,10 +747,6 @@ Text Notes 5450 9950 0    50   ~ 0
 EBAY MPL3115A2\nTEMP/PRESSURE\nSENSOR\nMODULE
 Text Notes 5600 10300 0    50   ~ 0
 I2C1_SDL
-Wire Wire Line
-	4300 10900 4550 10900
-Wire Wire Line
-	4100 10900 4550 10900
 Wire Wire Line
 	5600 10300 6000 10300
 Wire Wire Line
@@ -1410,9 +1400,9 @@ Wire Wire Line
 	3850 7200 4450 7200
 Text GLabel 4050 7000 2    50   Input ~ 0
 VDD
-Text Notes 4600 10050 0    50   ~ 0
+Text Notes 5000 10050 0    50   ~ 0
 RX
-Text Notes 4600 9950 0    50   ~ 0
+Text Notes 5000 9950 0    50   ~ 0
 TX
 Text GLabel 7750 7350 2    50   Input ~ 0
 PE2
@@ -1467,22 +1457,22 @@ Wire Wire Line
 	1000 10050 1000 10150
 Connection ~ 1000 10150
 Wire Wire Line
-	3000 10700 3000 10100
+	3400 10700 3400 10100
 Connection ~ 1000 10300
 $Comp
 L stmsplat2-custom:ublox_SAM-M8Q U1
 U 1 1 5BD908A5
-P 3750 10100
-F 0 "U1" H 3750 10778 50  0000 C CNN
-F 1 "ublox_chinese_PCB_module" H 3750 10687 50  0000 C CNN
-F 2 "NEO7_GPS_MODULE" H 3750 10000 50  0001 C CNN
-F 3 "" H 3750 10100 50  0001 C CNN
-F 4 "M20-7890546" H 3750 10100 50  0001 C CNN "RS Components"
-	1    3750 10100
+P 4150 10100
+F 0 "U1" H 4150 10778 50  0000 C CNN
+F 1 "ublox_chinese_PCB_module" H 4150 10687 50  0000 C CNN
+F 2 "NEO7_GPS_MODULE" H 4150 10000 50  0001 C CNN
+F 3 "" H 4150 10100 50  0001 C CNN
+F 4 "M20-7890546" H 4150 10100 50  0001 C CNN "RS Components"
+	1    4150 10100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3000 10100 3250 10100
+	3400 10100 3650 10100
 Wire Wire Line
 	6650 7300 7150 7300
 Wire Wire Line
@@ -1661,7 +1651,7 @@ Wire Wire Line
 Wire Wire Line
 	1800 10200 1800 10900
 Wire Wire Line
-	1000 10700 3000 10700
+	1000 10700 3400 10700
 $Comp
 L power:GND #PWR05
 U 1 1 65297E91
@@ -2044,8 +2034,6 @@ Wire Wire Line
 	3400 11000 3400 10900
 Connection ~ 3400 10900
 Wire Wire Line
-	3400 10900 3750 10900
-Wire Wire Line
 	4350 8250 4350 8500
 Connection ~ 9900 2650
 Wire Wire Line
@@ -2310,22 +2298,6 @@ Wire Wire Line
 	5400 1300 5800 1300
 Wire Wire Line
 	5800 1300 5800 2650
-$Comp
-L Connector:TestPoint TP5
-U 1 1 62DB8842
-P 5950 2450
-F 0 "TP5" H 6008 2570 50  0000 L CNN
-F 1 "TestPoint" H 6008 2479 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 6150 2450 50  0001 C CNN
-F 3 "~" H 6150 2450 50  0001 C CNN
-	1    5950 2450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5950 2450 5950 2650
-Connection ~ 5950 2650
-Wire Wire Line
-	5950 2650 6300 2650
 Wire Wire Line
 	12700 3150 12550 3150
 Wire Wire Line
@@ -2421,21 +2393,10 @@ F 3 "~" H 12700 9100 50  0001 C CNN
 	1    12700 9100
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:CP C25
-U 1 1 631889B9
-P 15150 8950
-F 0 "C25" H 15200 9100 50  0000 L CNN
-F 1 "100uF" H 15200 8850 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 15188 8800 50  0001 C CNN
-F 3 "~" H 15150 8950 50  0001 C CNN
-	1    15150 8950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	15150 8500 15150 8800
+	15000 8500 15000 8800
 Wire Wire Line
-	15150 9100 15150 9450
+	15000 9100 15000 9450
 Wire Wire Line
 	13950 9450 14300 9450
 Wire Wire Line
@@ -2589,7 +2550,7 @@ Wire Wire Line
 Connection ~ 10850 1650
 Wire Wire Line
 	1000 10300 1000 10700
-Text Notes 3900 9400 0    50   ~ 0
+Text Notes 4300 9400 0    50   ~ 0
 EBAY MINATURE\nNEO7M MODULE (NO ANTENNA)\nMODULE SMA CONN
 Wire Wire Line
 	6000 10500 5800 10500
@@ -2612,11 +2573,7 @@ INT2
 Wire Wire Line
 	5600 10100 6000 10100
 Wire Wire Line
-	4550 10900 5800 10900
-Wire Wire Line
 	5800 10600 5800 10900
-Wire Wire Line
-	5800 2650 5950 2650
 Wire Wire Line
 	6750 950  6950 950 
 Wire Wire Line
@@ -2632,7 +2589,7 @@ LIGHTNING RECEIVER FRONT END
 Text Notes 7400 5500 0    89   ~ 0
 SERIAL FLASH ROM\n  AND NVRAM
 Text Notes 12400 10400 0    89   Italic 0
-VER 0.13: FROZEN \nSPI2<->SPI3 SWAPPED
+VER 0.14 FROZEN \nADDED ANOTHER 100uF
 $Comp
 L Connector_Generic:Conn_01x02 J14
 U 1 1 61992824
@@ -2677,19 +2634,13 @@ F 3 "~" H 14700 8950 50  0001 C CNN
 	1    14700 8950
 	1    0    0    -1  
 $EndComp
-Connection ~ 15150 8500
-Wire Wire Line
-	15150 8500 15650 8500
-Connection ~ 15150 9450
-Wire Wire Line
-	15150 9450 15700 9450
 Wire Wire Line
 	14700 8800 14700 8500
 Wire Wire Line
 	14300 8500 14700 8500
 Connection ~ 14700 8500
 Wire Wire Line
-	14700 8500 15150 8500
+	14700 8500 15000 8500
 Wire Wire Line
 	14700 9100 14700 9450
 Connection ~ 14700 9450
@@ -3096,7 +3047,7 @@ F 3 "" H 14700 9450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	14700 9450 15150 9450
+	14700 9450 15000 9450
 $Comp
 L power:GNDA #PWR0109
 U 1 1 648B7644
@@ -3461,14 +3412,14 @@ Wire Wire Line
 	2650 9900 2650 9250
 Connection ~ 2650 9250
 Wire Wire Line
-	2650 9250 3650 9250
+	2650 9250 3100 9250
 Wire Wire Line
 	2650 10200 2650 10900
 Wire Wire Line
 	2250 10900 2650 10900
 Connection ~ 2650 10900
 Wire Wire Line
-	2650 10900 3400 10900
+	2650 10900 3100 10900
 Text Notes 15200 3050 0    50   ~ 0
 STM SPI3
 $Comp
@@ -3579,4 +3530,58 @@ Wire Wire Line
 Connection ~ 7650 5800
 Wire Wire Line
 	7650 5800 7950 5800
+Wire Wire Line
+	5800 2650 6300 2650
+Text Label 1000 10550 0    50   ~ 0
+TIMEPULSE
+$Comp
+L Device:CP C25
+U 1 1 631889B9
+P 15000 8950
+F 0 "C25" H 15050 9100 50  0000 L CNN
+F 1 "100uF" H 15050 8850 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 15038 8800 50  0001 C CNN
+F 3 "~" H 15000 8950 50  0001 C CNN
+	1    15000 8950
+	1    0    0    -1  
+$EndComp
+Connection ~ 15000 8500
+Connection ~ 15000 9450
+Wire Wire Line
+	15000 8500 15650 8500
+Wire Wire Line
+	15000 9450 15700 9450
+$Comp
+L Device:CP C31
+U 1 1 6233E414
+P 3100 10050
+F 0 "C31" H 3150 10200 50  0000 L CNN
+F 1 "100uF" H 3150 9950 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 3138 9900 50  0001 C CNN
+F 3 "~" H 3100 10050 50  0001 C CNN
+	1    3100 10050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 9900 3100 9250
+Wire Wire Line
+	3100 10200 3100 10900
+Connection ~ 4800 10900
+Wire Wire Line
+	4800 10900 5800 10900
+Wire Wire Line
+	4300 10900 4800 10900
+Wire Wire Line
+	3400 10900 4150 10900
+Wire Wire Line
+	4150 10600 4150 10900
+Connection ~ 4150 10900
+Wire Wire Line
+	4150 10900 4300 10900
+Connection ~ 3100 9250
+Wire Wire Line
+	3100 9250 4050 9250
+Connection ~ 3100 10900
+Wire Wire Line
+	3100 10900 3400 10900
 $EndSCHEMATC
