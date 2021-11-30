@@ -11,6 +11,6 @@ class Freeroute(pcbnew.ActionPlugin):
         # The entry function of the plugin that is executed on user action
         board = pcbnew.GetBoard()
         basename = os.path.splitext(board.GetFileName())
-        os.system(pcbnew.GetKicadConfigPath()+'\\FreeRouting.jar -de \"'+basename[0]+'.dsn\"')
+        os.system(pcbnew.GetKicadConfigPath()+'\\FreeRouting.jar -mp 140 -Xmx16g -mt 128 -us greedy -is prioritized -de \"'+basename[0]+'.dsn\"')
 
 Freeroute().register() # Instantiate and register to Pcbnew
