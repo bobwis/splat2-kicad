@@ -1,0 +1,32 @@
+Drill report for C:\projects\lightning\kicad\splat2-kicad\stmsplat2.kicad_pcb
+Created on 04/12/2021 17:19:14
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'stmsplat2-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.400mm  0.0157"  (166 holes)
+    T2  0.500mm  0.0197"  (1 hole)
+    T3  0.508mm  0.0200"  (12 holes)
+    T4  0.710mm  0.0280"  (144 holes)
+    T5  0.910mm  0.0358"  (11 holes)
+    T6  1.000mm  0.0394"  (68 holes)
+    T7  1.320mm  0.0520"  (5 holes)
+    T8  1.500mm  0.0591"  (1 hole)
+    T9  1.700mm  0.0669"  (4 holes)
+
+    Total plated holes count 412
+
+
+Drill file 'stmsplat2-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  3.000mm  0.1181"  (1 hole)
+    T2  3.500mm  0.1378"  (2 holes)
+
+    Total unplated holes count 3
