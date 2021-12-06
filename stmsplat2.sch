@@ -1065,8 +1065,6 @@ Text Label 1650 2600 0    50   ~ 0
 PB0
 Text Label 1650 2700 0    50   ~ 0
 PC1
-Text Label 1650 2800 0    50   ~ 0
-PC0
 Text GLabel 1650 2900 2    50   Input ~ 0
 PD3
 Text GLabel 1650 3000 2    50   Input ~ 0
@@ -2504,7 +2502,7 @@ LIGHTNING RECEIVER FRONT END
 Text Notes 7400 5500 0    89   ~ 0
 SERIAL FLASH ROM\n  AND NVRAM
 Text Notes 12400 10400 0    89   Italic 0
-VER 0.16\nADDED RESET HEADER + DIL SWITXH\nPOWERCONN SIGNALS
+VER 0.17\nPC0 tagged to GND
 $Comp
 L Connector_Generic:Conn_01x02 J14
 U 1 1 61992824
@@ -2769,7 +2767,6 @@ NoConn ~ 1150 2400
 NoConn ~ 1650 2400
 NoConn ~ 1650 2600
 NoConn ~ 1650 2700
-NoConn ~ 1650 2800
 NoConn ~ 1150 2900
 NoConn ~ 1150 3800
 NoConn ~ 1650 3600
@@ -3651,4 +3648,23 @@ $EndComp
 Connection ~ 10550 7650
 Wire Wire Line
 	10550 7650 10750 7650
+Text GLabel 1650 2800 2    50   Input ~ 0
+PC0
+Text GLabel 3950 3800 2    50   Input ~ 0
+PC0
+$Comp
+L power:GND #PWR0102
+U 1 1 61B4DC3D
+P 3850 4000
+F 0 "#PWR0102" H 3850 3750 50  0001 C CNN
+F 1 "GND" H 3855 3827 50  0000 C CNN
+F 2 "" H 3850 4000 50  0001 C CNN
+F 3 "" H 3850 4000 50  0001 C CNN
+	1    3850 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 3800 3850 3800
+Wire Wire Line
+	3850 3800 3850 4000
 $EndSCHEMATC

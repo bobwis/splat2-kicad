@@ -1,6 +1,6 @@
 "Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
-1;"U10";"XCVR_E30-400M20S";1;"XCVR_E30-400M20S (Si4463)";;;
-2;"U1";"NEO7_GPS_MODULE";1;"ublox_chinese_PCB_module";;;
+1;"U1";"NEO7_GPS_MODULE";1;"ublox_chinese_PCB_module";;;
+2;"U10";"XCVR_E30-400M20S";1;"XCVR_E30-400M20S (Si4463)";;;
 3;"R6,R5";"R_0805_2012Metric";2;"100R";;;
 4;"C24,C20,C23,C2";"CP_Elec_5x5.4";4;"10uF";;;
 5;"J19,J18,J11";"PinHeader_1x02_P2.54mm_Vertical";3;"Conn_01x02_Male";;;
