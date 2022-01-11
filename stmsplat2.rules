@@ -10,19 +10,19 @@
     (vias on)
     (via_costs 43)
     (plane_via_costs 5)
-    (start_ripup_costs 70)
-    (start_pass_no 26)
+    (start_ripup_costs 30)
+    (start_pass_no 72)
     (layer_rule F.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.2)
+    )
+    (layer_rule B.Cu
       (active on)
       (preferred_direction horizontal)
       (preferred_direction_trace_costs 1.0)
       (against_preferred_direction_trace_costs 2.0)
-    )
-    (layer_rule B.Cu
-      (active on)
-      (preferred_direction vertical)
-      (preferred_direction_trace_costs 1.0)
-      (against_preferred_direction_trace_costs 3.0)
     )
   )
   (rule
@@ -67,6 +67,15 @@
     )
     (attach off)
   )
+  (padstack "Via[0-1]_900:500_um"
+    (shape
+      (circle F.Cu 900.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 900.0 0.0 0.0)
+    )
+    (attach off)
+  )
   (padstack "Via[0-1]_800:508_um"
     (shape
       (circle F.Cu 800.0 0.0 0.0)
@@ -93,6 +102,21 @@
       (circle B.Cu 1282.6 0.0 0.0)
     )
     (attach off)
+  )
+  (via 
+    "Via[0-1]_900:500_um" "Via[0-1]_900:500_um" default
+  )
+  (via 
+    "Via[0-1]_900:500_um-kicad_default" "Via[0-1]_900:500_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_900:500_um-20thou" "Via[0-1]_900:500_um" 20thou
+  )
+  (via 
+    "Via[0-1]_900:500_um-40thou" "Via[0-1]_900:500_um" 40thou
+  )
+  (via 
+    "Via[0-1]_900:500_um-80thou" "Via[0-1]_900:500_um" 80thou
   )
   (via 
     "Via[0-1]_1900:1000_um" "Via[0-1]_1900:1000_um" default
@@ -225,29 +249,29 @@
     )
   )
   (class "kicad_default"
-    /IOREF /PF15 /PF4 /PF14 /PE9 /PB0 /PB11 /PC0
-    /PF3 /PD4 /PF5 /PF10 /PA7 /PF8 /PD0 /PB13
-    /PA15 /PC7 /PA6 /PB3 "Net-(C5-Pad1)" "Net-(C6-Pad1)" /HALF3V3 "Net-(D3-Pad2)"
-    "Net-(D4-Pad2)" "Net-(D2-Pad2)" "Net-(D6-Pad2)" "Net-(D5-Pad2)" "Net-(D8-Pad2)" "Net-(TP6-Pad1)" "Net-(D7-Pad2)" "Net-(C4-Pad1)"
-    "Net-(C4-Pad2)" /BOOT0 /PF6 /PA13 /PA14 /PB7 /PC13 /PC14
-    /PC15 /PH2 /PD9 /PA1 /PC1 /PG13 /PG11 /PH0
-    /PH1 /PA9 /PA8 /PA10 /PA2 /PD10 /PG7 /PC5
-    /PD8 /PA12 /PA11 /PB14 /PC4 /PG6 "Net-(D8-Pad1)" "Net-(J10-Pad2)"
-    "Net-(J4-Pad2)" "Net-(J4-Pad3)" "Net-(J3-Pad3)" "Net-(J3-Pad2)" "Net-(D2-Pad1)" "Net-(C7-Pad1)" "Net-(D9-Pad2)" "Net-(D10-Pad2)"
-    "Net-(D3-Pad1)" "Net-(C8-Pad2)" "Net-(C8-Pad1)" "Net-(Q1-Pad2)" "Net-(TP11-Pad1)" "Net-(TP9-Pad1)" "Net-(R12-Pad2)" "Net-(R9-Pad1)"
-    "Net-(C12-Pad1)" "Net-(R10-Pad1)" "Net-(U10-Pad21)" "Net-(U10-Pad13)" "Net-(J12-Pad2)" "Net-(J12-Pad3)" "Net-(U2-Pad17)" "Net-(U6-Pad38)"
-    "Net-(U6-Pad37)" "Net-(U6-Pad36)" "Net-(U6-Pad35)" "Net-(U6-Pad31)" "Net-(U6-Pad30)" "Net-(U6-Pad29)" "Net-(U6-Pad22)" "Net-(U6-Pad21)"
-    "Net-(U6-Pad19)" "Net-(U6-Pad17)" "Net-(U6-Pad16)" "Net-(U6-Pad15)" "Net-(U6-Pad7)" "Net-(U6-Pad6)" "Net-(U6-Pad5)" "Net-(J14-Pad1)"
-    "Net-(J17-Pad2)" PA3 PD14 PD13 PD11 PD12 PD15 PA5
-    PE14 PA4 PG2 PC3 PC2 PD3 PB6 PB9
-    PG5 PG8 PE0 PF11 PE11 PE7 PE8 PB15
-    PB1 PB2 PB12 PC6 PC8 PG4 PE13 PF12
-    PF13 PE15 PE12 PE10 PB5 PB4 PB8 PC9
-    PG10 PG15 PE6 PG1 PF9 PF2 PE5 PE2
-    PG3 PA0 NC PC11 PG12 PG9 PE1 PG0
-    PD1 PF0 PF1 PE3 PD6 PD5 PF7 PC12
-    PC10 "Net-(C29-Pad2)" "/SPI2_SCKT" "/SPI2_MISOT" "/SPI2_MOSIT" NRST PD2 PD7
-    "Net-(C13-Pad1)"
+    /IOREF /PF15 /PF4 /PF14 /PE9 /PB0 /PF3 /PD4
+    /PF5 /PF10 /PA7 /PF8 /PB13 /PA15 /PC7 /PA6
+    /PB3 "Net-(C5-Pad1)" "Net-(C6-Pad1)" /HALF3V3 "Net-(D3-Pad2)" "Net-(D4-Pad2)" "Net-(D2-Pad2)" "Net-(D6-Pad2)"
+    "Net-(D5-Pad2)" "Net-(D8-Pad2)" "Net-(TP6-Pad1)" "Net-(D7-Pad2)" "Net-(C4-Pad1)" "Net-(C4-Pad2)" /BOOT0 /PA13
+    /PA14 /PB7 /PC13 /PC14 /PC15 /PH2 /PD9 /PA1
+    /PC1 /PG13 /PG11 /PH0 /PH1 /PA9 /PA8 /PA10
+    /PA2 /PD10 /PG7 /PC5 /PD8 /PA12 /PA11 /PB14
+    /PC4 /PG6 "Net-(D8-Pad1)" "Net-(J10-Pad2)" "Net-(J4-Pad2)" "Net-(J4-Pad3)" "Net-(J3-Pad3)" "Net-(J3-Pad2)"
+    "Net-(D2-Pad1)" "Net-(C7-Pad1)" "Net-(D9-Pad2)" "Net-(D10-Pad2)" "Net-(D3-Pad1)" "Net-(C8-Pad2)" "Net-(C8-Pad1)" "Net-(Q1-Pad2)"
+    "Net-(TP11-Pad1)" "Net-(TP9-Pad1)" "Net-(R12-Pad2)" "Net-(R9-Pad1)" "Net-(C12-Pad1)" "Net-(R10-Pad1)" "Net-(U10-Pad21)" "Net-(U10-Pad13)"
+    "Net-(J12-Pad2)" "Net-(J12-Pad3)" "Net-(U2-Pad17)" "Net-(U6-Pad38)" "Net-(U6-Pad37)" "Net-(U6-Pad36)" "Net-(U6-Pad35)" "Net-(U6-Pad31)"
+    "Net-(U6-Pad30)" "Net-(U6-Pad29)" "Net-(U6-Pad22)" "Net-(U6-Pad21)" "Net-(U6-Pad19)" "Net-(U6-Pad16)" "Net-(U6-Pad15)" "Net-(U6-Pad7)"
+    "Net-(U6-Pad6)" "Net-(U6-Pad5)" "Net-(J14-Pad1)" "Net-(J17-Pad2)" PA3 PD14 PD13 PD11
+    PD12 PD15 PA5 PE14 PA4 PG2 PC3 PC2
+    PD3 PB6 PB9 PG5 PG8 PE0 PF11 PE11
+    PE7 PE8 PB15 PB1 PB2 PB12 PC6 PC8
+    PG4 PE13 PF12 PF13 PE15 PE12 PE10 PB5
+    PB4 PB8 PC9 PG10 PG15 PE6 PG1 PF9
+    PF2 PE5 PE2 PG3 PA0 NC PC11 PG12
+    PG9 PE1 PG0 PD1 PF0 PF1 PE3 PD6
+    PD5 PF7 PC12 PC10 "Net-(C29-Pad2)" "/SPI2_SCKT" "/SPI2_MISOT" "/SPI2_MOSIT"
+    NRST PD2 PD7 5VEXT +3V3 "/3V3_VPP" /OUR3V3 PD0
+    +5VSTM PB11 PF6
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
@@ -268,7 +292,7 @@
     )
   )
   (class 40thou
-    /VIN /+3V3 /AVDD /VBAT /U5V VDD A3V3 +5V
+    /VIN /AVDD /VBAT /U5V A3V3 +5V
     (clearance_class "kicad_default")
     (via_rule default)
     (rule
