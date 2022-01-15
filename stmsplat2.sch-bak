@@ -425,17 +425,6 @@ F 3 "~" H 4500 10900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 4300 10900
-$Comp
-L Connector:TestPoint TP13
-U 1 1 5C43FB2E
-P 15700 9450
-F 0 "TP13" H 15758 9570 50  0000 L CNN
-F 1 "TestPoint" H 15758 9479 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 15900 9450 50  0001 C CNN
-F 3 "~" H 15900 9450 50  0001 C CNN
-	1    15700 9450
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	10100 10750 10100 11050
 Wire Wire Line
@@ -2704,7 +2693,6 @@ NoConn ~ 3000 3500
 NoConn ~ 3000 3400
 NoConn ~ 3000 3000
 NoConn ~ 3000 2800
-NoConn ~ 3000 2700
 NoConn ~ 3000 2300
 NoConn ~ 3000 2400
 NoConn ~ 3000 2600
@@ -2759,8 +2747,6 @@ Text Label 2500 2500 2    50   ~ 0
 PB3
 Text Label 3000 2600 0    50   ~ 0
 PC4
-Text Label 3000 2700 0    50   ~ 0
-PF5
 Text Label 3000 2800 0    50   ~ 0
 PF4
 NoConn ~ 6650 6700
@@ -3700,4 +3686,24 @@ Text GLabel 1600 8550 2    50   Input ~ 0
 PF6
 Text GLabel 1150 1400 0    50   Input ~ 0
 PF6
+Text GLabel 3000 2700 2    50   Input ~ 0
+PF5
+Text GLabel 3950 3650 2    50   Input ~ 0
+PF5
+Wire Wire Line
+	3950 3650 3850 3650
+Wire Wire Line
+	3850 3650 3850 3800
+Connection ~ 3850 3800
+$Comp
+L Connector:TestPoint TP13
+U 1 1 5C43FB2E
+P 15700 9450
+F 0 "TP13" H 15758 9570 50  0000 L CNN
+F 1 "TestPoint" H 15758 9479 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 15900 9450 50  0001 C CNN
+F 3 "~" H 15900 9450 50  0001 C CNN
+	1    15700 9450
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
